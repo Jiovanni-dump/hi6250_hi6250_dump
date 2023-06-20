@@ -1,0 +1,14 @@
+# generic_a15-user 8.0.0 OPR6.170623.010 eng.jenkin.20180910.170104 test-keys
+- manufacturer: unknown
+- platform: hi6250
+- codename: hi6250
+- flavor: hi6250-user
+- release: 8.0.0
+- id: OPR6.170623.010
+- incremental: eng.jenkin.20180910.170104
+- tags: test-keys
+- fingerprint: Huawei/generic_a15/generic_a15:8.0.0/OPR6.170623.010/jenkin09101701:user/test-keys
+- is_ab: false
+- brand: hi6250
+- branch: generic_a15-user-8.0.0-OPR6.170623.010-eng.jenkin.20180910.170104-test-keys
+- repo: hi6250_hi6250_dump
