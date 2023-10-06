@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <!--AR000A65FS jwx378333 2018/09/03 System_5.0.0.20_02R0 V141 begin-->
+    <string custom_certify_picture="product/hw_oem/AGS2-L03/media/AGS2-L03.png" reset="true"/>
+    <!--AR000A65FS jwx378333 2018/09/03 System_5.0.0.20_02R0 V141 end-->
+    <!--DTS2018030503418 ywx539124 2018/07/30 System_5.0.0.20_02Q0 V131 begin-->
+    <integer ca_settings_on="1"/>
+    <!--DTS2018030503418 ywx539124 2018/07/30 System_5.0.0.20_02Q0 V131 end-->
+    <!--DTS2018030503418 ywx539124 2018/07/30 System_5.0.0.20_02Q0 V131 begin-->
+    <string hw_reduce_sar_fcc="310,311,312,313,314,315,316,330,332,534,535,544,334,722,734,732,740,730,716,748,708,710,714,744,415,363,364,362,302,704,706,368,372,370,338,374,342,352,358,360,738,746,724,356,702,344,404,405,406,520,639,736,712,432,425,450,633"/>
+    <!--DTS2018030503418 ywx539124 2018/07/30 System_5.0.0.20_02Q0 V131 end-->
+    <!--DTS2018030503418 ywx539124 2018/07/30 System_5.0.0.20_02Q0 V131 begin-->
+    <string hw_reduce_sar_special="460,461,440,441"/>
+    <!--DTS2018030503418 ywx539124 2018/07/30 System_5.0.0.20_02Q0 V131 end-->
+    <!--DTS2019080501672 hwx566875 2019/10/15 System_5.0.0.20_02TI V165 begin-->
+    <integer settings.global.hwouc_class_display="1"/>
+    <!--DTS2019080501672 hwx566875 2019/10/15 System_5.0.0.20_02TI V165 end-->
+</resources>

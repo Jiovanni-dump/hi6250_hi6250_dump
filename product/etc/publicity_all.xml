@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packageList>
+	<packageInfo author="华为终端有限公司" feature="游戏助手，对游戏进行标记，并且可以设置游戏省电模式，免打扰，按键防误触功能。" package="com.huawei.gameassistant" label="com.huawei.gameassistant">
+	</packageInfo>
+	<packageInfo author="华为终端有限公司" feature="Huawei Histen音效设置，用户可以根据喜好设置和配置音效均衡器等信息。" package="com.huawei.imedia.sws" label="com.huawei.imedia.sws">
+	</packageInfo>
+	<packageInfo package="com.huawei.kidsmode.kidspaint" feature="儿童绘画应用，让孩子享受绘画乐趣、发现并发挥孩子绘画天赋。" author="华为终端有限公司" label="com.huawei.kidsmode.kidspaint">
+	</packageInfo>
+	<packageInfo author="华为终端有限公司" feature="儿童乐园，专为学龄前儿童打造，为孩子提供丰富的教学和娱乐内容。" package="com.huawei.kidsmode" label="com.huawei.kidsmode">
+	</packageInfo>
+	<packageInfo author="华为终端有限公司" feature="定制系统用户界面SystemUI模块资源。" package="com.android.systemui.overlay" label="com.android.systemui.overlay">
+	</packageInfo>
+</packageList>

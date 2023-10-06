@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <!--DTS2019102811821 lwx570462 2019/10/30 System_5.0.0.20_02TK V166 begin-->
+    <string hw_invisible_apps_in_HwSystemManager="com.android.server.telecom"/>
+    <!--DTS2019102811821 lwx570462 2019/10/30 System_5.0.0.20_02TK V166 end-->
+    <!--DTS2019072603101 wwx766017 2019/08/13 System_5.0.0.20_02TC V163 begin-->
+    <string hw_invisible_apps_in_appmanager="com.android.server.telecom;com.android.cellbroadcastreceiver;com.android.phone;com.android.providers.telephony"/>
+    <!--DTS2019072603101 wwx766017 2019/08/13 System_5.0.0.20_02TC V163 end-->
+    <!--DTS2018051800857 bwx372750 2018/05/18 System_5.0.0.20_02ND V70 begin-->
+    <string hw_reduce_sar_fcc="US,AI,AS,BM,CA,GU,KY,MP,PR,VI"/>
+    <!--DTS2018051800857 bwx372750 2018/05/18 System_5.0.0.20_02ND V70 end-->
+</resources>

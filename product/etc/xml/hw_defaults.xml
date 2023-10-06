@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <!--DTS2018040301244 ywx376917 2018/04/09 System_5.0.0.20_02L0 V44 begin-->
+    <string def_cust_tile="wifi,bt,data,sound,rotation,airplane,hishare,flashlight,location,screenshot,eyecomfort"/>
+    <!--DTS2018040301244 ywx376917 2018/04/09 System_5.0.0.20_02L0 V44 end-->
+    <!--DTS2018060505135 zwx504795 2018/06/20 System_5.0.0.20_02OJ V101 begin-->
+    <integer settings.system.screen_brightness="98"/>
+    <!--DTS2018060505135 zwx504795 2018/06/20 System_5.0.0.20_02OJ V101 end-->
+    <!--DTS2018041710504 zwx490647 2018/04/17 System_5.0.0.20_02LI V51 begin-->
+    <integer settings.system.screen_brightness_mode="0"/>
+    <!--DTS2018041710504 zwx490647 2018/04/17 System_5.0.0.20_02LI V51 end-->
+    <!--DTS2018031603917 zwx490647 2018/03/16 System_5.0.0.20_02JU V36 begin-->
+    <integer fingersense_smartshot_enabled="0"/>
+    <!--DTS2018031603917 zwx490647 2018/03/16 System_5.0.0.20_02JU V36 end-->
+    <!--DTS2018011006766 ywx539124 2018/02/02 System_5.0.0.20_02GT V1 begin-->
+    <integer settings.system.sws_mode="3"/>
+    <!--DTS2018011006766 ywx539124 2018/02/02 System_5.0.0.20_02GT V1 end-->
+    <!--DTS2018040301405 ywx376917 2018/04/11 System_5.0.0.20_02L2 V43 begin-->
+    <integer settings.secure.game_deep_nodisturb_mode="1"/>
+    <!--DTS2018040301405 ywx376917 2018/04/11 System_5.0.0.20_02L2 V43 end-->
+    <!--DTS2018040301405 ywx376917 2018/04/11 System_5.0.0.20_02L2 V43 begin-->
+    <integer settings.secure.game_dnd_mode="1"/>
+    <!--DTS2018040301405 ywx376917 2018/04/11 System_5.0.0.20_02L2 V43 end-->
+    <!--DTS2018040301405 ywx376917 2018/04/11 System_5.0.0.20_02L2 V43 begin-->
+    <integer settings.secure.game_power_save_mode="1"/>
+    <!--DTS2018040301405 ywx376917 2018/04/11 System_5.0.0.20_02L2 V43 end-->
+    <!--DTS2018071902657 qwx489920 2018/07/27 System_5.0.0.20_02PU V128 begin-->
+    <string hw_forbid_accelerometer="com.imo.android.imoim"/>
+    <!--DTS2018071902657 qwx489920 2018/07/27 System_5.0.0.20_02PU V128 end-->
+    <!--DTS2018011006766 ywx539124 2018/02/02 System_5.0.0.20_02GT V1 begin-->
+    <integer settings.system.dual_clocks="1"/>
+    <!--DTS2018011006766 ywx539124 2018/02/02 System_5.0.0.20_02GT V1 end-->
+    <!--DTS2018011006766 ywx539124 2018/02/02 System_5.0.0.20_02GT V1 begin-->
+    <integer settings.system.play_camera_sound="1"/>
+    <!--DTS2018011006766 ywx539124 2018/02/02 System_5.0.0.20_02GT V1 end-->
+    <!--DTS2018070401766 zwx490647 2018/07/05 System_5.0.0.20_02P2 V111 begin-->
+    <integer settings.system.touch_disable_mode="0"/>
+    <!--DTS2018070401766 zwx490647 2018/07/05 System_5.0.0.20_02P2 V111 end-->
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+    <!--AR000A65FS jwx378333 2018/07/07 System_5.0.0.20_02P3 V116 begin-->
+    <!--AR000A65FS jwx378333 2018/06/19 System_5.0.0.20_02OF V104 begin-->
+    <string custom_certify_picture="product/hw_oem/AGS2-W19/media/AGS2-W19.png" reset="true"/>
+    <!--AR000A65FS jwx378333 2018/06/19 System_5.0.0.20_02OF V104 end-->
+    <!--AR000A65FS jwx378333 2018/07/07 System_5.0.0.20_02P3 V116 end-->
+    <!--DTS2018062906632 ywx539124 2018/07/02 System_5.0.0.20_02OZ V110 begin-->
+    <!--DTS2018051800857 bwx372750 2018/05/18 System_5.0.0.20_02ND V69 begin-->
+    <string hw_reduce_sar_fcc="US,MX,AR,VE,CO,EC,CL,PE,UY,HN,NI,PA,PY,LB,AW,BS,CW,CA,GT,SV,CU,HT,DO,JM,TT,BB,GD,LC,VC,GY,SR,BR,SKN,BZ,AG,IN,TH,KE,BO,CR,IR,IL,KR,SC"/>
+    <!--DTS2018051800857 bwx372750 2018/05/18 System_5.0.0.20_02ND V69 end-->
+    <!--DTS2018062906632 ywx539124 2018/07/02 System_5.0.0.20_02OZ V110 end-->
+</resources>

@@ -1,0 +1,3 @@
+/product/app/HwGameAssistant/HwGameAssistant.apk
+/product/app/HwKidsMode/HwKidsMode.apk
+/product/app/HwKidsPaint/HwKidsPaint.apk
