@@ -1,0 +1,4 @@
+version=8.10.20.100
+type=triStatePara
+subtype=generic
+compatibleVersion=8
