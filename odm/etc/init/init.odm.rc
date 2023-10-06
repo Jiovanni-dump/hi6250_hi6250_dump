@@ -1,0 +1,31 @@
+on early-boot
+	service CameraDaemon /vendor/bin/CameraDaemon hi6250 AGASSI2
+	class main
+	user media
+	group audio camera inet net_bt net_bt_admin net_bw_acct drmrpc mediadrm system dsm
+
+on boot
+	chown system system /dev/ttyAMA4
+	chmod 660 /dev/ttyAMA4
+
+	#rcc module
+	write /sys/kernel/rcc/event PASSIVE_MODE
+	write /sys/kernel/rcc/enable 1
+
+on property:ro.config.hw_low_ram=true
+    write /sys/kernel/rcc/max_anon_clean_size 800M
+
+on property:ro.boot.product.hardware.sku=AGS2-L09
+    symlink /preavs/oemcrypto /mnt/oemcrypto
+
+on property:ro.boot.product.hardware.sku=AGS2-AL00
+    symlink /preavs/oemcrypto /mnt/oemcrypto
+
+on property:ro.boot.product.hardware.sku=AGS2-L03
+    symlink /preavs/oemcrypto /mnt/oemcrypto
+
+on property:ro.boot.product.hardware.sku=AGS2-W09
+    symlink /preavs/oemcrypto /mnt/oemcrypto
+
+on property:ro.boot.product.hardware.sku=AGS2-W19
+    symlink /preavs/oemcrypto /mnt/oemcrypto

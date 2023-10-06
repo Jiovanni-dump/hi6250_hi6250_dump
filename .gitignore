@@ -1,0 +1,4 @@
+system/priv-app/Settings/Settings.apk
+odm/lib64/libMegviiUnlock.so
+vendor/firmware/isp_dts.img
+product/etc/facerecognize/megviifacepp_model
