@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2020-03-28 15:10:00.0-->
+  <string upgrade_guide_activity_path="com.huawei.android.hwupgradeguide.UpgradeWizardActivity"/>
+</resources>

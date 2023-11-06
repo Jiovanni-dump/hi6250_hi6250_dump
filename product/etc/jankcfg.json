@@ -1,0 +1,17 @@
+{
+"ActionDef":
+[
+    {"nActionID":13,"nActionType":0,"nEventID":902000000,"strComment":"START_APP","nLevel_A":6000,"nLevel_B":2500,"nLevel_C":2500,"bTimeOut":0,"nDumpBitmap":7567,"eReportType":1,"nReportNumPerDay":8,
+        "strExcludingMsg":"",
+        "nLogID_Count":8, "aLogFilter":[{"nLogID":43,"nFilter":0},
+            {"nLogID":12,"nFilter":5},
+            {"nLogID":13,"nFilter":6},
+            {"nLogID":18,"nFilter":5},
+            {"nLogID":27,"nFilter":6},
+            {"nLogID":34,"nFilter":5},
+            {"nLogID":44,"nFilter":3},
+            {"nLogID":309,"nFilter":2}],
+        "nLogsTimeSpanPolicy_Count":0, "atLogsTSPolicy":[]
+    }
+]
+}

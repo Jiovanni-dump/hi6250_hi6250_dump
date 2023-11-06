@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <whiteapp name="Bigo" package="sg.bigo.live"/>
+  <whiteapp name="Live.me" package="com.cmcm.live"/>
+  <whiteapp name="Tango" package="com.sgiggle.production"/>
+  <whiteapp name="Twitch" package="tv.twitch.android.app"/>
+  <whiteapp name="live.ly" package="com.zhiliaoapp.lively"/>
+  <whiteapp name="网易音街" package="com.netease.karaoke"/>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tag>
+  <apk>
+
+        /data/hw_init/system/app/ContactsCamcard.apk;
+        /system/app/HwCryptoMessageService.apk;
+        /product/app/MeeTime.apk;
+    </apk>
+  <scan_install_apk packagename="com.huawei.meetime" path="/product/app/MeeTime"/>
+</tag>

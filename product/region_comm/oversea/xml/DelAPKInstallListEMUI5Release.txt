@@ -1,0 +1,15 @@
+/product/region_comm/oversea/app/CeliaKeyboard_OVE_stub/CeliaKeyboard_OVE_stub.apk,nosys
+/product/region_comm/oversea/app/GameBox_stub/GameBox_stub.apk
+/data/hw_init/product/region_comm/oversea/app/GlobalHonorStore/GlobalHonorStore.apk
+/product/region_comm/oversea/app/HonorClub/HonorClub.apk
+/product/region_comm/oversea/app/HwBrowser_stub/HwBrowser_stub.apk,priv
+/data/hw_init/product/region_comm/oversea/app/HwHealthPlatform_OVE/HwHealthPlatform_OVE.apk
+/product/region_comm/oversea/app/HwMaps_stub/HwMaps_stub.apk
+/data/hw_init/product/region_comm/oversea/app/HwMirror/HwMirror.apk
+/product/region_comm/oversea/app/HwRead_stub/HwRead_stub.apk
+/product/region_comm/oversea/app/HwSearch_stub/HwSearch_stub.apk
+/data/hw_init/product/region_comm/oversea/app/HwSmartSuggestion/HwSmartSuggestion.apk
+/product/region_comm/oversea/app/HwUpgradeGuide/HwUpgradeGuide.apk,priv
+/product/region_comm/oversea/app/HwUserGuide/HwUserGuide.apk,nosys
+/data/hw_init/product/region_comm/oversea/app/HwWallet/HwWallet.apk
+/product/region_comm/oversea/app/MyCenter_stub/MyCenter_stub.apk

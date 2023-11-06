@@ -1,0 +1,4 @@
+/product/app/HwFMRadio/HwFMRadio.apk
+/data/hw_init/product/app/HwGameAssistant/HwGameAssistant.apk
+/product/app/LinkNow_stub/LinkNow_stub.apk
+/product/app/MeeTime/MeeTime.apk,priv

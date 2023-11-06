@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tag version="1.0">
+         <ringtones>Bounce</ringtones>
+         <ringtones>Day_lily</ringtones>
+         <ringtones>Dream_It_Possible</ringtones>
+         <ringtones>Flow</ringtones>
+         <ringtones>Flipped</ringtones>
+         <ringtones>Free</ringtones>
+         <ringtones>Harp</ringtones>
+         <ringtones>Huawei_Tune_Clean</ringtones>
+         <ringtones>Huawei_Tune_Living</ringtones>
+         <ringtones>Impromptu</ringtones>
+         <ringtones>Menuet</ringtones>
+         <ringtones>Polonaise</ringtones>
+         <ringtones>Sailing</ringtones>
+         <ringtones>Suite</ringtones>
+         <ringtones>Westlake</ringtones>
+         <ringtones>Wind_Dance</ringtones>
+         <ringtones>Huawei_Tune_Orchestral</ringtones>
+         <ringtones>Ripple</ringtones>
+         
+         
+         <alarms>Fresh_Air</alarms>
+         <alarms>Hawaii</alarms>
+         <alarms>Ripple</alarms>
+         <alarms>Meet</alarms>
+         <alarms>Sakura_Drop</alarms>
+         <alarms>Star</alarms>
+         
+         
+         <notifications>Cave</notifications>
+         <notifications>Chess</notifications>
+         <notifications>Crystal_Drop</notifications>
+         <notifications>Cuckoo</notifications>
+         <notifications>Doorbell</notifications>
+         <notifications>Drip</notifications>
+         <notifications>Echo</notifications>
+         <notifications>Fountain</notifications>
+         <notifications>Huawei_Cascade</notifications>
+         <notifications>Jump</notifications>
+         <notifications>Leaf</notifications>
+         <notifications>Letter</notifications>
+         <notifications>Lit</notifications>
+         <notifications>Little_Wish</notifications>
+         <notifications>Peking_Opera_Drum</notifications>
+         <notifications>PingPong</notifications>
+         <notifications>Pixies</notifications>
+         <notifications>Play</notifications>
+         <notifications>Summer</notifications>
+         <notifications>Twinkle</notifications>
+         <notifications>Waterflow</notifications>
+         
+         
+         <ui>camera_focus</ui>
+         <ui>Dock</ui>
+         <ui>KeypressInvalid</ui>
+         <ui>Trusted</ui>
+         <ui>Undock</ui>
+         <ui>VideoStop</ui>
+         <ui>WirelessChargingStarted</ui>
+</Tag>

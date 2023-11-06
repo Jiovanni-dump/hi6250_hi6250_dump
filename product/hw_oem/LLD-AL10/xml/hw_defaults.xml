@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2018-10-19 10:58:04.0-->
+  <string custom_certify_picture="/product/etc/media/LLD-AL10.png" reset="true"/>
+  <!--2018-10-19 10:58:04.0-->
+  <string hw_def_theme="/data/hw_init/product/region_comm/china/themes/Default.hwt"/>
+</resources>

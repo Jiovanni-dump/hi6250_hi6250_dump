@@ -1,0 +1,44 @@
+# 2018-10-19 10:56:22.0
+persist.odm.radio.nv_by_card=2
+# 2018-10-19 10:57:22.0
+ro.boot.product.hardware.sku=LLD-TL10
+# 2018-10-19 10:57:22.0
+ro.build.id=HONORLLD-TL10
+# 2018-10-19 10:58:04.0
+ro.config.attach_apn_enabled=true
+# 2018-10-19 10:57:22.0
+ro.config.cdma.ecclist=+110,+112,+911,+999,+119,+120,+122
+# 2018-10-19 10:57:22.0
+ro.config.chr_call_tracker=true
+# 2018-10-30 14:47:56.0
+ro.config.hw_charge_frz=true
+# 2018-10-19 10:57:22.0
+ro.config.hw_srlte=true
+# 2018-10-19 10:56:22.0
+ro.config.hw_volte_on=true
+# 2018-10-19 10:57:22.0
+ro.config.hw_vtlte_on=true
+# 2019-04-11 15:32:11.0
+ro.config.hw_wifi_proxy=false
+# 2018-10-19 10:58:04.0
+ro.config.marketing_name=Honor 9 Lite
+# 2018-10-19 10:58:04.0
+ro.config.networkmode_hide_dyn=true
+# 2018-10-19 10:57:22.0
+ro.dual.sim.phone=true
+# 2018-10-19 10:58:04.0
+ro.hwpp.dualsim_swap_solution=cmcc
+# 2018-10-19 10:57:22.0
+ro.product.board=LLD-TL10
+# 2018-10-19 10:57:22.0
+ro.product.fingerprintName=HUAWEI-LELAND
+# 2018-10-19 10:58:04.0
+ro.product.first_api_level=26
+# 2018-10-19 10:57:22.0
+ro.product.hardwareversion=HL1LLDM
+# 2018-10-19 10:57:22.0
+ro.product.member.level=10010
+# 2018-10-19 10:57:22.0
+ro.product.model=LLD-TL10
+# 2018-10-19 10:57:22.0
+ro.product.name=LLD-TL10

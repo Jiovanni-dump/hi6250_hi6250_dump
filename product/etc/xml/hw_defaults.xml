@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2019-04-16 14:28:00.0-->
+  <string def_cust_toolbox_tile="wifi,bt,flashlight,sound,rotation,hishare,airplane,data,location,screenshot,ridemode,amVowifi,amVowifi2"/>
+  <!--2018-10-19 10:56:23.0-->
+  <integer fingersense_smartshot_enabled="0"/>
+  <!--2018-10-19 10:56:23.0-->
+  <string hw_theme_sort="Default"/>
+  <!--2018-10-19 10:56:23.0-->
+  <string plmn_ut_ignore_cs_service="40402,40403,40410,40416,40431,40440,40445,40449,40470,40490,40492,40493,40494,40495,40496,40497,40498,40551,40552,40553,40554,40555,40556,40420,40405,40411,40430,40486,40484,40413,40488,40567,40566,40415,40401,40460,40446,40427,40443,405753,405751,405756,405752,405755,405754,405750"/>
+  <!--2018-10-19 10:56:23.0-->
+  <string settings.global.convert_brightnesss_factor="3.2"/>
+  <!--2019-02-14 11:26:02.0-->
+  <string settings.global.transition_animation_scale="0.5"/>
+  <!--2019-02-14 11:26:02.0-->
+  <string settings.global.window_animation_scale="0.5"/>
+  <!--2018-10-19 10:56:23.0-->
+  <integer settings.secure.game_dnd_mode="2"/>
+  <!--2018-10-19 10:56:23.0-->
+  <integer settings.secure.game_power_save_mode="1"/>
+  <!--2018-10-19 10:56:23.0-->
+  <integer settings.system.sws_mode="3"/>
+</resources>

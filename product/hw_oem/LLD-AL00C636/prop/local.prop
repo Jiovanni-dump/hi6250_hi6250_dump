@@ -1,0 +1,30 @@
+# 2019-03-05 10:26:07.0
+ro.boot.product.hardware.sku=LLD-AL00
+# 2019-03-05 10:26:07.0
+ro.build.id=HONORLLD-AL00
+# 2019-03-05 10:26:07.0
+ro.config.hw_ReduceSAR=true
+# 2019-03-05 10:26:07.0
+ro.config.hw_lte_support=true
+# 2019-03-05 10:26:07.0
+ro.config.hw_vowifi_mmsut=true
+# 2019-03-05 10:26:07.0
+ro.config.marketing_name=Honor 9 Lite
+# 2019-03-05 10:26:07.0
+ro.config.safety_certification=ce
+# 2019-03-05 10:26:07.0
+ro.dual.sim.phone=true
+# 2019-03-05 10:26:07.0
+ro.frp.pst=/dev/block/bootdevice/by-name/frp
+# 2019-03-05 10:26:07.0
+ro.product.board=LLD-AL00
+# 2019-03-05 10:26:07.0
+ro.product.fingerprintName=HUAWEI-LELAND
+# 2019-03-05 10:26:07.0
+ro.product.hardwareversion=HL2LLDM
+# 2019-03-05 10:26:07.0
+ro.product.model=LLD-AL00
+# 2019-03-05 10:26:07.0
+ro.product.name=LLD-AL00
+# 2019-03-05 10:26:07.0
+ro.vendor.config.hw_vowifi=true

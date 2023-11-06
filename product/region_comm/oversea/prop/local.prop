@@ -1,0 +1,22 @@
+# 2021-06-03 16:19:09.0
+hw_mc.launcher.force_uninstallable_hwread=true
+# 2019-10-08 19:57:13.0
+ro.config.check_battery_error=false
+# 2018-12-11 19:24:53.0
+ro.config.default_sms_app=com.android.mms
+# 2018-10-30 14:47:56.0
+ro.config.hw_charge_frz=true
+# 2018-12-20 19:10:19.0
+ro.config.hw_globalSearch=true
+# 2020-04-01 21:00:08.0
+ro.config.hw_vowifi_mmsut=true
+# 2019-04-30 13:24:28.0
+ro.config.hw_vtlte_on=true
+# 2018-10-19 16:25:27.0
+ro.config.ringtone=Huawei_Tune.ogg
+# 2018-10-19 16:25:27.0
+ro.config.ringtone2=Huawei_Tune_Living.ogg
+# 2018-10-19 16:25:27.0
+ro.cust.cdrom=/data/hw_init/product/region_comm/oversea/cdrom/autorun.iso
+# 2020-04-01 21:00:08.0
+ro.vendor.config.hw_vowifi=true

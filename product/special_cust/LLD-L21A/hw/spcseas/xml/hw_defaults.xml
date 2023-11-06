@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2019-01-30 14:40:34.0-->
+  <string authenticate_by_product="Hide_all_cust_Authen"/>
+  <!--2019-01-30 14:40:34.0-->
+  <string custom_certify_picture="/product/special_cust/LLD-L21A/hw/spcseas/media/LLD-L21A.png"/>
+  <!--2019-07-18 19:20:19.0-->
+  <string def_cust_toolbox_tile="wifi,bt,flashlight,sound,rotation,hishare,airplane,data,location,screenshot,ridemode,amVowifi,amVowifi2"/>
+</resources>

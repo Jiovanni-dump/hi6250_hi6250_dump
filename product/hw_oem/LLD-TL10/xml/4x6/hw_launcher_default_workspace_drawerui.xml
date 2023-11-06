@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher">
+
+    <!--荣耀亲选-->
+    <favorite
+        launcher:packageName="cn.honor.qinxuan"
+        launcher:className="cn.honor.qinxuan.MainActivity"
+        launcher:container="-100"
+        launcher:shortcut="true"
+        launcher:icontype="0"
+        launcher:translatetitle="1"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="1"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="insertinto"/>
+    <folder
+        launcher:title="@string/cust_folder_name_top_apps"
+        launcher:op="delete">
+    </folder>
+    <folder
+        launcher:title="@string/cust_folder_name_top_apps"
+        launcher:appid="0"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:op="add">
+        <favorite
+            launcher:packageName="com.greenpoint.android.mc10086.activity"
+            launcher:className="com.leadeon.cmcc.base.StartPageActivity"
+            launcher:shortcut="true"
+            launcher:icontype="0"
+            launcher:translatetitle = "1"/>
+    </folder>
+    <favorite
+        launcher:packageName="com.cmic.mmnes"
+        launcher:className="com.cmic.mmnes.activity.SplashActivity"
+        launcher:container="-100"
+        launcher:shortcut="true"
+        launcher:icontype="0"
+        launcher:translatetitle="1"
+        launcher:screen="1"
+        launcher:spanX="1"
+        launcher:spanY="1" 
+        launcher:op="add"/>
+</favorites>

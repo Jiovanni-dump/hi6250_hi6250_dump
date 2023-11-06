@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preload_Group_Base_Version_Volume>
+
+<Preload_Group_Base_Version>
+<vendor>all</vendor>
+<country>cn</country>
+<version>NA</version>
+</Preload_Group_Base_Version>
+<Preload_Group_Base_Version>
+<vendor>cmcc</vendor>
+<country>cn</country>
+<version>NA</version>
+</Preload_Group_Base_Version>
+<Preload_Group_Base_Version>
+<vendor>other</vendor>
+<country>other</country>
+<version>NA</version>
+</Preload_Group_Base_Version>
+</Preload_Group_Base_Version_Volume>

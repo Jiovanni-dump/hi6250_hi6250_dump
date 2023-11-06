@@ -1,0 +1,279 @@
+# 2018-10-19 10:55:20.0
+camera.ignore.chat.facebeauty=1
+# 2018-10-19 10:55:20.0
+drm.service.enabled=true
+# 2018-10-19 10:55:20.0
+hw.wifi.disable_auto_disc=true
+# 2021-04-26 20:54:39.0
+hw_mc.pms.recovery_preset_app=true
+# 2018-10-19 10:56:23.0
+persist.iaware.mem_emerg_kill=true
+# 2018-10-19 10:56:22.0
+persist.odm.radio.nv_by_card=2
+# 2018-10-19 10:55:19.0
+persist.sys.dualcards=true
+# 2019-08-09 16:08:45.0
+persist.sys.fast_h_delay=5000
+# 2018-10-19 10:56:22.0
+persist.sys.fast_h_duration=2000
+# 2018-10-19 10:56:23.0
+persist.sys.fast_h_max=50
+# 2019-08-09 16:22:09.0
+persist.sys.iaware_fast_h_delay=3000
+# 2018-12-24 19:49:02.0
+persist.sys.support_config_ash=false
+# 2018-11-21 10:20:11.0
+persist.vendor.cpub_min_freq_skip=0
+# 2018-10-19 10:56:22.0
+ro.blight.exempt_app_type=-1,1,16,24
+# 2018-12-26 18:40:38.0
+ro.build.hide=false
+# 2018-12-20 17:47:24.0
+ro.build.hide.matchers=xxxxxxxxxxx;xxxxxxxxxx;ARM;hi6250;Mali-T830;Mali-T880;9.1.0;
+# 2018-11-06 15:59:21.0
+ro.build.hide.replacements=unknown;unknown;unknown;unknown;unknown;unknown;8.0.0;
+# 2018-10-19 10:55:19.0
+ro.build.hide.settings=8;1.8 GHz;2.0GB;11.00 GB;16.00 GB;1920 x 1080;7.0;3.10.30;5.0
+# 2018-10-30 09:45:39.0
+ro.build.soundrecorder.imgtag=true
+# 2018-10-19 10:56:22.0
+ro.camera.cos_max_back_size=1921x1441
+# 2018-10-19 10:56:22.0
+ro.camera.cos_max_front_size=1921x1441
+# 2018-10-19 10:56:22.0
+ro.camera.cos_photo_cfg=M5CPU_S
+# 2018-10-19 10:56:22.0
+ro.camera.cos_preview_cfg=LOW
+# 2018-10-19 10:56:22.0
+ro.camera.cos_ratio_count=1,1,0
+# 2018-10-19 10:56:22.0
+ro.camera.ttpic_bg_enable=true
+# 2018-10-19 10:56:22.0
+ro.camera.ttpic_enable=1
+# 2018-11-09 10:29:29.0
+ro.camera_features_reduce_9.0=false
+# 2018-10-19 10:55:20.0
+ro.check.modem_network=true
+# 2018-10-19 10:55:20.0
+ro.config.app_big_icon_size=170
+# 2018-10-19 10:55:20.0
+ro.config.audioEffectForRing=true
+# 2018-11-01 09:46:18.0
+ro.config.auto_display_mode=true
+# 2018-10-19 10:56:22.0
+ro.config.blight_power_curve=49,1;71,0.8;150,0.7;370,0.7;390,0.7;410,0.8;430,0.9;450,1
+# 2018-10-19 10:55:20.0
+ro.config.colorTemperature_3d=true
+# 2018-10-19 10:55:20.0
+ro.config.colorTemperature_K3=true
+# 2018-10-19 10:55:20.0
+ro.config.cpu_info_display=Hisilicon Kirin 659
+# 2018-10-19 10:56:23.0
+ro.config.enable_partition_move_update=1
+# 2018-10-19 10:56:22.0
+ro.config.enable_thermal_bdata=true
+# 2018-10-19 10:56:22.0
+ro.config.face_disable_cap=20
+# 2018-10-19 10:56:22.0
+ro.config.face_disable_temp=-100
+# 2018-10-19 10:56:22.0
+ro.config.face_recognition=true
+# 2018-10-19 10:56:22.0
+ro.config.face_smart_keepon=false
+# 2018-10-19 10:56:22.0
+ro.config.face_smart_rotation=false
+# 2018-10-19 10:56:22.0
+ro.config.fp_spe_back=true
+# 2018-10-19 10:55:20.0
+ro.config.gameassist=1
+# 2018-10-19 10:56:23.0
+ro.config.gesture_nav_support=true
+# 2018-11-06 10:13:24.0
+ro.config.hide_meminfo=false
+# 2018-10-19 10:55:20.0
+ro.config.huawei_smallwindow=0
+# 2018-10-19 10:56:22.0
+ro.config.hw.security_volume=8
+# 2018-11-22 21:29:40.0
+ro.config.hw_BatteryLevel_job_allowed=92
+# 2019-01-30 10:58:05.0
+ro.config.hw_bluetooth_is_auto_scan=false
+# 2018-10-19 10:56:22.0
+ro.config.hw_charge_frz=true
+# 2018-10-19 10:55:20.0
+ro.config.hw_dts_settings=true
+# 2018-10-19 10:56:22.0
+ro.config.hw_easywakeup=true
+# 2019-02-21 16:57:21.0
+ro.config.hw_easywakeup_openface=true
+# 2018-10-19 10:55:19.0
+ro.config.hw_fyuse_enable=false
+# 2018-10-19 10:55:19.0
+ro.config.hw_glovemode_enabled=0
+# 2018-10-19 10:55:19.0
+ro.config.hw_hotswap_on=true
+# 2018-11-09 14:39:38.0
+ro.config.hw_linkedin_enable=true
+# 2018-10-19 10:56:22.0
+ro.config.hw_media_flags=2
+# 2018-10-29 19:20:14.0
+ro.config.hw_mg_copyright=false
+# 2018-11-07 16:37:01.0
+ro.config.hw_navbar_is_black=true
+# 2019-03-27 16:25:35.0
+ro.config.hw_newsimple=true
+# 2019-01-03 19:24:57.0
+ro.config.hw_privacySpace=false
+# 2018-10-19 10:55:20.0
+ro.config.hw_screen_aspect=2160:1913:1080
+# 2018-10-19 10:55:20.0
+ro.config.hw_sim2airplane=true
+# 2019-08-08 18:08:58.0
+ro.config.hw_snapshot_scale=70
+# 2018-10-19 10:55:20.0
+ro.config.hw_support_clone_app=true
+# 2018-10-19 10:55:20.0
+ro.config.hw_support_geofence=true
+# 2018-10-19 10:55:20.0
+ro.config.hw_switchdata_4G=true
+# 2018-10-19 10:55:20.0
+ro.config.hw_sws=true
+# 2018-10-19 10:56:22.0
+ro.config.hw_triple_finger=true
+# 2018-10-19 10:55:20.0
+ro.config.hw_ubmenable=true
+# 2018-10-19 10:56:22.0
+ro.config.hw_volte_dyn=true
+# 2018-10-19 10:56:22.0
+ro.config.hw_volte_on=true
+# 2018-12-26 18:40:38.0
+ro.config.hw_watermark=false
+# 2018-10-19 10:55:20.0
+ro.config.hw_wifibridge=true
+# 2018-10-19 10:55:19.0
+ro.config.linkplus.liveupdate=true
+# 2018-10-19 10:56:22.0
+ro.config.low_temp_tsh=0
+# 2018-11-01 09:50:22.0
+ro.config.marketing_name=Honor 9 Lite
+# 2018-11-27 15:24:26.0
+ro.config.new_hw_screen_aspect=2160:2032:1080
+# 2018-11-05 16:26:09.0
+ro.config.not_merge_time_location=true
+# 2018-11-15 15:11:39.0
+ro.config.ota_update_theme=9
+# 2018-12-24 19:20:06.0
+ro.config.pg_game_cabc=true
+# 2018-12-24 20:05:50.0
+ro.config.pg_unify_app_5min=true
+# 2018-12-18 21:01:27.0
+ro.config.pg_unify_push_5min=true
+# 2018-12-24 19:22:25.0
+ro.config.phone_findback_net=false
+# 2018-12-13 15:26:08.0
+ro.config.pureAndroidSecNotify=false
+# 2018-11-08 14:54:19.0
+ro.config.show_am_pm=true
+# 2018-11-07 16:35:07.0
+ro.config.show_auto_brightness=true
+# 2018-11-09 16:31:33.0
+ro.config.show_high_consume=true
+# 2018-12-12 11:40:50.0
+ro.config.show_sdcard_psw=true
+# 2019-01-23 11:39:47.0
+ro.config.step_count_show=true
+# 2018-11-16 20:44:56.0
+ro.config.support_face_mode=0
+# 2019-01-31 15:34:41.0
+ro.config.support_notification_way=true
+# 2018-10-19 10:55:20.0
+ro.config.support_sdcard_crypt=false
+# 2018-10-19 10:55:20.0
+ro.config.swsAlwaysActiveForSPK=true
+# 2018-10-19 10:55:20.0
+ro.config.sws_version=sws3_1
+# 2018-10-19 10:56:22.0
+ro.config.systemui.hwwidget=false
+# 2018-10-19 10:56:22.0
+ro.config.vol_steps=15
+# 2018-11-09 14:39:38.0
+ro.feature.contacts.smartgroup=true
+# 2019-01-16 13:59:10.0
+ro.feature.display_screensaver_lite=false
+# 2019-12-26 10:38:10.0
+ro.feature.gallery.doc_rectify_enable=true
+# 2018-11-09 11:30:28.0
+ro.feature.gallery.edit_illusion_enable=true
+# 2019-02-15 16:25:01.0
+ro.feature.gallery.hide_album_enable=true
+# 2018-11-09 11:31:50.0
+ro.feature.gallery.slide_show_enable=true
+# 2018-11-12 20:28:49.0
+ro.feature.hwcamera.targettrack=true
+# 2019-03-13 08:51:16.0
+ro.feature.launcher.long_click_enter_edit_mode=true
+# 2019-01-15 16:38:06.0
+ro.feature.launcher.setting_cycle_keep=true
+# 2019-01-31 15:46:03.0
+ro.feature.mobile_network_sharing_lite=false
+# 2019-01-23 11:39:47.0
+ro.feature.show_backfp_function=true
+# 2019-01-15 17:14:50.0
+ro.feature.weather.add_no_update_item=true
+# 2018-11-09 17:02:29.0
+ro.feature.wms.singlemode=true
+# 2018-10-19 10:55:20.0
+ro.hwcamera.brightness_range=4,255
+# 2018-11-09 11:31:34.0
+ro.hwcamera.flashoff=0
+# 2018-11-09 11:26:33.0
+ro.hwcamera.frontzoom_enable=1
+# 2018-10-19 10:56:23.0
+ro.hwcamera.gifphoto_enable=true
+# 2018-10-19 10:55:20.0
+ro.hwcamera.gps_request_delay=30
+# 2018-10-19 10:55:20.0
+ro.hwcamera.portrait_mode=off
+# 2018-11-09 11:08:49.0
+ro.hwcamera.recognition_enable=1
+# 2018-11-09 11:49:31.0
+ro.hwcamera.reduce_resolution=false
+# 2018-10-19 10:55:20.0
+ro.hwcamera.slowmotion=false
+# 2018-11-09 16:40:53.0
+ro.odm.camera.watermark=true
+# 2018-10-19 10:55:19.0
+ro.product.brand=HONOR
+# 2018-10-19 10:55:20.0
+ro.product.device=HWLLD-H
+# 2019-03-19 11:49:32.0
+ro.product.force.opengl=true
+# 2018-10-19 10:55:19.0
+ro.product.manufacturer=HUAWEI
+# 2018-12-26 18:40:38.0
+ro.readfastboot=0
+# 2018-12-24 17:25:39.0
+ro.sys.pg_nfb_kill=true
+
+
+
+
+ro.comp.product_version=Product-LLD-LGRP2-OVS 9.1.0.5(0000)
+
+=
+
+ro.config.beta_sec_ctrl=false
+
+sys.hisi.pmom.service.enable=false
+
+ro.build.display.id=no-need
+
+ro.hw.hota.is_hwinit_exists=true
+
+ro.comp.hl.product_base_version=LLD-LGRP2-OVS 9.1.0.189
+
+ro.hw.base_all_groupversion=G1.1
+
+ro.build.backtargetmode=V1.0
+
+ro.product.imeisv=66

@@ -1,0 +1,40 @@
+# 2018-10-19 17:48:17.0
+ro.boot.product.hardware.sku=LLD-L31
+# 2018-10-19 17:48:17.0
+ro.build.id=HONORLLD-L31
+# 2018-10-19 17:48:17.0
+ro.config.hw_ReduceSAR=true
+# 2018-10-19 17:48:18.0
+ro.config.hw_camera_nfc_switch=true
+# 2018-10-30 14:47:56.0
+ro.config.hw_charge_frz=true
+# 2018-10-19 17:48:18.0
+ro.config.hw_lte_support=true
+# 2019-02-18 19:29:29.0
+ro.config.hw_nfc_def_route=2
+# 2018-10-19 17:48:17.0
+ro.config.hw_vowifi_mmsut=true
+# 2018-10-19 17:48:17.0
+ro.config.marketing_name=Honor 9 Lite
+# 2018-10-19 17:48:17.0
+ro.config.safety_certification=ce
+# 2018-10-19 17:48:17.0
+ro.dual.sim.phone=true
+# 2018-10-19 17:48:17.0
+ro.frp.pst=/dev/block/bootdevice/by-name/frp
+# 2018-10-19 17:48:17.0
+ro.product.board=LLD-L31A
+# 2018-10-19 17:48:17.0
+ro.product.fingerprintName=HUAWEI-LELAND
+# 2018-10-19 17:48:17.0
+ro.product.first_api_level=26
+# 2018-10-19 17:48:17.0
+ro.product.hardwareversion=HL2LLDM
+# 2018-10-19 17:48:17.0
+ro.product.model=LLD-L31
+# 2018-10-19 17:48:17.0
+ro.product.name=LLD-L31
+# 2018-10-19 17:48:17.0
+ro.vendor.config.hw_vowifi=true
+
+ro.build.description=LLD-L31-user 9.1.0 HUAWEILLD-L31 189-LGRP2-OVS release-keys

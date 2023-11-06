@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <!-- TEST -->
+    <carrier_config mcc="460" mnc="60">
+        <int name="vowifiPlusEnableFlag" value="0" />
+    </carrier_config>
+    <!-- TEST -->
+    <carrier_config mcc="460" mnc="70">
+        <int name="vowifiPlusEnableFlag" value="0" />
+    </carrier_config>
+</carrier_config_list>

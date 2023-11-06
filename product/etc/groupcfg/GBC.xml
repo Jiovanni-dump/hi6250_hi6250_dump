@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Custmization_Group_Base_Version_Volume>
+
+<Custmization_Group_Base_Version>
+<vendor>hw</vendor>
+<country>spcseas</country>
+<version>GBC1.3</version>
+</Custmization_Group_Base_Version>
+<Custmization_Group_Base_Version>
+<vendor>hw</vendor>
+<country>meafnaf</country>
+<version>GBC1.3</version>
+</Custmization_Group_Base_Version>
+<Custmization_Group_Base_Version>
+<vendor>hw</vendor>
+<country>eu</country>
+<version>GBC1.2</version>
+</Custmization_Group_Base_Version>
+<Custmization_Group_Base_Version>
+<vendor>hw</vendor>
+<country>ru</country>
+<version>GBC1.3</version>
+</Custmization_Group_Base_Version>
+</Custmization_Group_Base_Version_Volume>

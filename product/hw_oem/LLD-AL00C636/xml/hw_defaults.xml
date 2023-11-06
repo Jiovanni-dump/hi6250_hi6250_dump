@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2019-03-29 09:48:49.0-->
+  <string custom_certify_picture="/product/etc/media/LLD-L21.png" reset="true"/>
+  <!--2019-03-05 10:26:07.0-->
+  <string hw_def_theme="/data/hw_init/product/region_comm/oversea/themes/Default.hwt"/>
+</resources>
