@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="50941029cc807d4401744f0ce7a3cdbb">
+  <dict>
+    <!--2020-08-08 10:05:14.000-->
+    <bool key="CFNRcChangeWithCFNL">false</bool>
+    <!--2020-08-08 10:05:14.000-->
+    <int key="callWaitingMode">11</int>
+    <!--2020-08-08 10:05:14.000-->
+    <bool key="carrier_default_volte_switch_on_bool">false</bool>
+    <!--2018-11-22 10:48:29.000-->
+    <bool key="groupChatDefaultsToMMS">false</bool>
+    <!--2020-08-08 10:05:14.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2020-08-08 10:05:14.000-->
+    <bool key="utForbiddenWhenVolteSwitchOff">false</bool>
+  </dict>
+</config>

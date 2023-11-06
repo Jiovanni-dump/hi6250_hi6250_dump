@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="241ebefcf204500e34f332f950f03ec1">
+  <dict>
+    <!--2020-08-27 19:47:06.000-->
+    <bool key="CFNRcChangeWithCFNL">false</bool>
+    <!--2020-01-14 10:26:26.000-->
+    <int key="callWaitingMode">3</int>
+    <!--2020-01-14 10:26:26.000-->
+    <bool key="carrier_default_volte_switch_on_bool">false</bool>
+    <!--2021-06-10 09:55:36.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2020-08-27 19:47:06.000-->
+    <string key="dcFailCauseForNonVolteSim">33</string>
+    <!--2020-01-14 10:26:26.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2020-01-14 10:26:26.000-->
+    <int key="setDefaultNoReplyTimer">0</int>
+    <!--2020-07-08 19:15:39.000-->
+    <int key="utBsfPort">80</int>
+    <!--2020-01-14 10:26:26.000-->
+    <bool key="utForbiddenWhenVolteSwitchOff">false</bool>
+    <!--2020-01-14 10:26:26.000-->
+    <int key="utUseApn">1</int>
+    <!--2020-12-02 09:26:30.000-->
+    <bool key="vilte_data_is_metered_bool">false</bool>
+  </dict>
+</config>

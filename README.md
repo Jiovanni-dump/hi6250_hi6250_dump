@@ -1,0 +1,14 @@
+# generic_a15-user 9 PPR1.180610.011 eng.root.20210709.114911 test-keys
+- manufacturer: unknown
+- platform: hi6250
+- codename: hi6250
+- flavor: user
+- release: 9
+- id: PPR1.180610.011
+- incremental: 20210706111043
+- tags: release-keys
+- fingerprint: hi6250/hi6250/hi6250:9/PPR1.180610.011/root202107061110:user/release-keys
+- is_ab: false
+- brand: hi6250
+- branch: generic_a15-user-9-PPR1.180610.011-eng.root.20210709.114911-test-keys
+- repo: hi6250_hi6250_dump

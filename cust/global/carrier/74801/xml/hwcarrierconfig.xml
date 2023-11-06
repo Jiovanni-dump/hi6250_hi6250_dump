@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="596521816e95916da8425b97af30cbd3">
+  <dict>
+    <!--2020-01-15 16:39:36.000-->
+    <int key="callWaitingMode">11</int>
+    <!--2020-01-15 16:39:36.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2020-01-10 15:22:29.000-->
+    <string key="carrier_volte_hd_icon_flag">00010101</string>
+    <!--2018-08-27 18:31:04.000-->
+    <bool key="groupChatDefaultsToMMS">false</bool>
+    <!--2020-01-15 16:39:36.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2020-01-15 16:39:36.000-->
+    <int key="setDefaultNoReplyTimer">0</int>
+    <!--2018-08-27 18:29:11.000-->
+    <bool key="smsUsesSimpleCharactersOnly">true</bool>
+    <!--2020-01-15 16:39:36.000-->
+    <int key="utBearType">2</int>
+  </dict>
+</config>

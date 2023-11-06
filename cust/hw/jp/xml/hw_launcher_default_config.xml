@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launcher_config>
+  <bool name="config_CloundFolderEable">true</bool>
+</launcher_config>

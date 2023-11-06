@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="d0dcc776b5b6dabb542abb87b22a419e">
+  <dict>
+    <!--2018-11-02 16:47:16.000-->
+    <bool key="carrier_hide_network_mode_bool">true</bool>
+    <!--2020-06-05 16:42:12.000-->
+    <bool key="enabledMMS">false</bool>
+    <!--2018-05-30 16:54:04.000-->
+    <string key="hide_violence_number_from_mcc">54-144</string>
+  </dict>
+</config>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="GB2312"?>
+<PPSr>
+    <PPSrAlgo name="self_portrait" faceing="1" ispwidth = "4160" ispheight = "3120" width="3264" height="2448"></PPSrAlgo>
+    <PPSrAlgo name="beauty_front_noneextisp" faceing="1" ispwidth = "4160" ispheight = "3120" width="3264" height="2448"></PPSrAlgo>
+    <PPSrAlgo name="beauty_multidenoise" faceing="1" ispwidth = "4160" ispheight = "3120" width="3264" height="2448"></PPSrAlgo>
+    <PPSrAlgo name="beauty_hdr_front" faceing="1" ispwidth = "4160" ispheight = "3120" width="3264" height="2448"></PPSrAlgo>
+</PPSr>

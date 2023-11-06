@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config hashvalue="a0cf1822cc850ee486ee933afd6a96fa">
+  <array key="apks">
+    <dict>
+      <array key="cardinfo">
+        <string>50210</string>
+        <string>50216</string>
+      </array>
+      <int key="actiontype">1</int>
+      <string key="apkpackagename">com.digi.portal.mobdev.android</string>
+      <string key="apkpath">/data/hw_init/product/region_comm/oversea/app/MyDigi/MyDigi.apk</string>
+    </dict>
+    <dict>
+      <array key="cardinfo">
+        <string>52503</string>
+      </array>
+      <int key="actiontype">1</int>
+      <string key="apkpackagename">sg.gov.mnd.OneService</string>
+      <string key="apkpath">/data/hw_init/product/region_comm/oversea/app/OneService/OneService.apk</string>
+    </dict>
+    <dict>
+      <array key="cardinfo">
+        <string>52503</string>
+      </array>
+      <int key="actiontype">1</int>
+      <string key="apkpackagename">com.m1.mym1</string>
+      <string key="apkpath">/data/hw_init/product/region_comm/oversea/app/Mym1/Mym1.apk</string>
+    </dict>
+    <dict>
+      <array key="cardinfo">
+        <string>52503</string>
+      </array>
+      <int key="actiontype">1</int>
+      <string key="apkpackagename">deezer.android.app</string>
+      <string key="apkpath">/data/hw_init/product/region_comm/oversea/app/Deezer/Deezer.apk</string>
+    </dict>
+    <dict>
+      <array key="cardinfo">
+        <string>52503</string>
+      </array>
+      <int key="actiontype">1</int>
+      <string key="apkpackagename">com.korvac.liquid</string>
+      <string key="apkpath">/data/hw_init/product/region_comm/oversea/app/Korvac/Korvac.apk</string>
+    </dict>
+    <dict>
+      <array key="cardinfo">
+        <string>52505</string>
+      </array>
+      <int key="actiontype">1</int>
+      <string key="apkpackagename">com.starhub.csselfhelp</string>
+      <string key="apkpath">/data/hw_init/product/region_comm/oversea/app/MyStarHub/MyStarHub.apk</string>
+    </dict>
+    <dict>
+      <array key="cardinfo">
+        <string>52505</string>
+      </array>
+      <int key="actiontype">1</int>
+      <string key="apkpackagename">com.starhub.itv</string>
+      <string key="apkpath">/data/hw_init/product/region_comm/oversea/app/StarHubGo/StarHubGo.apk</string>
+    </dict>
+    <dict>
+      <array key="cardinfo">
+        <string>50212</string>
+        <string>50217</string>
+      </array>
+      <int key="actiontype">1</int>
+      <string key="apkpackagename">com.maxis.mymaxis</string>
+      <string key="apkpath">/data/hw_init/product/region_comm/oversea/app/MyMaxis/MyMaxis.apk</string>
+    </dict>
+    <dict>
+      <array key="cardinfo">
+        <string>502</string>
+        <string>404</string>
+        <string>405</string>
+        <string>525</string>
+        <string>515</string>
+        <string>510</string>
+        <string>452</string>
+        <string>520</string>
+      </array>
+      <int key="actiontype">1</int>
+      <string key="apkpackagename">com.huawei.honorclub.android</string>
+      <string key="apkpath">/product/region_comm/oversea/app/HonorClub/HonorClub.apk</string>
+    </dict>
+    <dict>
+      <array key="cardinfo">
+        <string>510</string>
+      </array>
+      <int key="actiontype">1</int>
+      <string key="apkpackagename">com.tsm.tsmstore</string>
+      <string key="apkpath">/data/hw_init/product/region_comm/oversea/app/ID3Store/ID3Store.apk</string>
+    </dict>
+    <dict>
+      <array key="cardinfo">
+        <string>510</string>
+      </array>
+      <int key="actiontype">1</int>
+      <string key="apkpackagename">id.co.babe</string>
+      <string key="apkpath">/data/hw_init/product/region_comm/oversea/app/BABE/BABE.apk</string>
+    </dict>
+    <dict>
+      <array key="cardinfo">
+        <string>510</string>
+      </array>
+      <int key="actiontype">1</int>
+      <string key="apkpackagename">blibli.mobile.commerce</string>
+      <string key="apkpath">/data/hw_init/product/region_comm/oversea/app/Blibli/Blibli.apk</string>
+    </dict>
+    <dict>
+      <array key="cardinfo">
+        <string>510</string>
+      </array>
+      <int key="actiontype">1</int>
+      <string key="apkpackagename">com.tokopedia.tkpd</string>
+      <string key="apkpath">/data/hw_init/product/region_comm/oversea/app/Tokopedia/Tokopedia.apk</string>
+    </dict>
+  </array>
+</config>

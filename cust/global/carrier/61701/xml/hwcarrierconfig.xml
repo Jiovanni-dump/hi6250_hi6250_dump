@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="a5185211e7c8b14b88bb0aa9f2931796">
+  <dict>
+    <!--2019-11-08 16:46:33.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2019-11-01 14:50:35.000-->
+    <string key="carrier_volte_hd_icon_flag">00101010</string>
+  </dict>
+</config>

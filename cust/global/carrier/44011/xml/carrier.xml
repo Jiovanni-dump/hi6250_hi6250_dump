@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="8f27901d823091f813aa22f55150f12e">
+  <dict>
+    <!--2020-02-19 11:50:20.000-->
+    <string key="hide_sepcial_apn_form_list">rakuten.lcs</string>
+    <!--2019-07-17 11:03:56.000-->
+    <bool key="hw_add_4g_only">true</bool>
+    <!--2019-11-05 16:27:19.000-->
+    <bool key="hw_not_show_impu">true</bool>
+    <!--2019-07-17 14:45:35.000-->
+    <int key="num_match">10</int>
+    <!--2019-07-18 14:56:17.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2019-07-17 14:45:35.000-->
+    <string key="voicemail_carrier">Rakuten</string>
+    <!--2019-07-17 14:45:35.000-->
+    <string key="voicemail_number">1417</string>
+    <!--2019-07-17 14:45:35.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

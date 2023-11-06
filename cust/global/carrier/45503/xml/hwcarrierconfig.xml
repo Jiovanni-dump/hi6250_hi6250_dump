@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="6cd066b03a720b932e4d4b31725a3034">
+  <dict>
+    <!--2020-08-10 14:57:34.000-->
+    <bool key="CFNRcChangeWithCFNL">false</bool>
+    <!--2020-08-10 14:57:34.000-->
+    <int key="callWaitingMode">3</int>
+    <!--2020-08-10 14:57:34.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2020-08-10 14:57:34.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2020-08-10 14:57:34.000-->
+    <int key="setDefaultNoReplyTimer">0</int>
+    <!--2020-08-10 14:57:34.000-->
+    <int key="utBearType">2</int>
+    <!--2020-08-10 14:57:34.000-->
+    <bool key="utForbiddenWhenVolteSwitchOff">false</bool>
+    <!--2020-08-10 14:57:34.000-->
+    <int key="utOIRSourceMode">1</int>
+  </dict>
+</config>

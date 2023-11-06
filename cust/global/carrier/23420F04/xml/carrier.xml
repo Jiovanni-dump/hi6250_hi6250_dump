@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="c001b1d2bbd61187b52be0906296d690">
+  <dict>
+    <!--2020-12-23 11:58:28.000-->
+    <int key="max_message_size">307200</int>
+    <!--2020-12-23 11:58:28.000-->
+    <int key="num_match">10</int>
+    <!--2020-12-31 14:46:38.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2020-12-23 11:58:28.000-->
+    <int key="sms_to_mms_textthreshold">-1</int>
+    <!--2020-12-23 11:58:28.000-->
+    <string key="virtual_ecclist_withcard">+911,+112,+999</string>
+  </dict>
+</config>

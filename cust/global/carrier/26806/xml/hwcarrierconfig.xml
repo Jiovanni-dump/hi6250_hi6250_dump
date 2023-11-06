@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="e9f566f1e256d9fad8ba1ac80ca94170">
+  <dict>
+    <!--2020-06-05 16:08:44.000-->
+    <bool key="CFNRcChangeWithCFNL">false</bool>
+    <!--2020-06-05 16:08:44.000-->
+    <int key="callWaitingMode">11</int>
+    <!--2021-01-25 19:59:24.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2018-05-30 11:11:00.000-->
+    <bool key="carrier_hide_lte_high_speed_bool">true</bool>
+    <!--2021-02-25 09:19:25.000-->
+    <string key="carrier_volte_hd_icon_flag">00000101</string>
+    <!--2018-05-29 19:12:11.000-->
+    <string key="carrier_wb_hd_icon_flag">000101</string>
+    <!--2018-07-02 17:49:38.000-->
+    <bool key="groupChatDefaultsToMMS">false</bool>
+    <!--2020-06-05 16:08:44.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2020-06-05 16:08:44.000-->
+    <int key="setDefaultNoReplyTimer">5</int>
+    <!--2020-06-05 16:08:44.000-->
+    <int key="utBearType">2</int>
+    <!--2020-06-05 16:08:44.000-->
+    <int key="utBsfPort">443</int>
+    <!--2020-06-05 16:08:44.000-->
+    <bool key="utBsfUsehttps">true</bool>
+    <!--2020-06-05 16:08:44.000-->
+    <bool key="utForbiddenWhenVolteSwitchOff">false</bool>
+    <!--2020-06-05 16:08:44.000-->
+    <int key="utNafPort">443</int>
+    <!--2020-06-05 16:08:44.000-->
+    <bool key="utNafUseHttps">true</bool>
+    <!--2020-06-05 16:08:44.000-->
+    <int key="utUseApn">1</int>
+  </dict>
+</config>

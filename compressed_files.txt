@@ -1,0 +1,2 @@
+odm/lib64/libMegviiUnlock.so.xz
+vendor/firmware/isp_dts.img.xz

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="35bebf34afa6bf0c1510a4bcbc3db340">
+  <dict>
+    <!--2020-12-14 11:07:05.000-->
+    <bool key="hw_remove_3g_only">true</bool>
+    <!--2020-11-16 15:02:21.000-->
+    <int key="vm_prioritymode">3</int>
+    <!--2020-12-04 11:56:18.000-->
+    <string key="voicemail_carrier">TME</string>
+    <!--2020-12-04 11:56:18.000-->
+    <string key="voicemail_number">22123</string>
+    <!--2020-12-04 11:56:18.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

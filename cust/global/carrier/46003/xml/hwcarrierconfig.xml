@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="a3332b81ad6f691b6bc08dbd3762f89f">
+  <dict>
+    <!--2020-05-07 14:26:43.000-->
+    <bool key="ims_video_ring">true</bool>
+    <!--2018-05-31 19:39:25.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2018-05-31 19:40:00.000-->
+    <bool key="use_403_for_local_cw">true</bool>
+    <!--2018-05-31 20:01:23.000-->
+    <bool key="utCanUseWifi">false</bool>
+  </dict>
+</config>

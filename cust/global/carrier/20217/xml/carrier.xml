@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="0cd2d854112c9ac167e2acbd0826f713">
+  <dict>
+    <!--2020-10-12 10:34:55.000-->
+    <int key="max_message_size">307200</int>
+    <!--2020-10-12 10:34:55.000-->
+    <int key="num_match">7</int>
+    <!--2020-10-12 10:34:55.000-->
+    <int key="sms_7bit_enabled">1</int>
+    <!--2020-10-12 10:34:55.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2020-10-12 10:34:55.000-->
+    <string key="voicemail_carrier">NOVA</string>
+    <!--2020-10-12 10:34:55.000-->
+    <string key="voicemail_number">123</string>
+    <!--2020-10-12 10:34:55.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>
