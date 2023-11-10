@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    <tag>
+         <apk>/system/app/HwVDrive.apk;
+         <!-- BEGIN PN:DTS2016033104141,Added by xWX323431, 2016/4/5 -->
+         /system/delapp/HwWallet.apk;
+         /system/delapp/HwHiSync.apk;
+         /system/delapp/HwBackup.apk;
+         <!--delete PN:DTS2018041802173, Added by wx231527, 2018/04/18 -->
+         /system/priv-app/HiSpace.apk;
+         /system/delapp/GameBox.apk;
+         /system/delapp/HwFansClub.apk;
+         /system/delapp/HnReader.apk;
+         <!-- END PN:DTS2016033104141,Added by xWX323431, 2016/4/5 -->
+         /system/delapp/HiSkyTone.apk;
+         /cust/cmcc/cn/app/BaiduSearch.apk;
+         <!--BEGIN PN:DTS2016122303083, Added by hwx247786, 2016/12/27 -->
+         /system/app/NfcNci_45.apk;
+        <!--END PN:DTS2016122303083, Added by hwx247786, 2016/12/27 -->
+        /cust/cmcc/cn/app/HwBackup_CMCC.apk;
+        </apk>
+    </tag>

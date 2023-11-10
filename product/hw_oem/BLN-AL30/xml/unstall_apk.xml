@@ -1,0 +1,14 @@
+<?xml    version="1.0"    encoding="utf-8"    ?>
+        <tag>
+            <apk>
+            <!-- BEGIN PN:DTS2016033104141,Added by xWX323431, 2016/4/5 -->
+            /system/delapp/HwAllBackup_CMCC.apk;
+            /system/app/HwFileManager.apk;
+            /system/delapp/MM.apk;
+            /system/delapp/MM_SafeCenter.apk;
+            <!-- END PN:DTS2016033104141,Added by xWX323431, 2016/4/5 -->
+            <!--BEGIN PN:DTS2016122303083, Added by hwx247786, 2016/12/27 -->
+            /system/app/NfcNci_45.apk;
+            <!--END PN:DTS2016122303083, Added by hwx247786, 2016/12/27 -->
+            </apk>
+        </tag>

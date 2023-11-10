@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    <tag>
+        <apk>
+             <!-- BEGIN PN:DTS2016032904223, Add by wx315496, 2016-03-30 -->
+             /system/app/HWCardManager.apk;
+             <!-- END   PN:DTS2016032904223, Add by wx315496, 2016-03-30 -->
+             <!--BEGIN PN: AR0005C0GL  , Added by fwx335393, 2016/11/16 -->
+             /system/priv-app/CellBroadcastReceiver.apk;
+             <!--END PN: AR0005C0GL  , Added by fwx335393, 2016/11/16-->
+             <!--BEGIN PN:DTS2016111707000, Added by twx287320, 2016/11/18 -->
+             /system/app/HwIms.apk;
+             <!--END PN:DTS2016111707000, Added by twx287320, 2016/11/18 -->
+            <!--BEGIN PN:DTS2016122303083, Added by hwx247786, 2016/12/27 -->
+            /system/app/NfcNci_45.apk;
+            <!--END PN:DTS2016122303083, Added by hwx247786, 2016/12/27 -->
+       </apk>
+    </tag>

@@ -1,0 +1,142 @@
+#############################################################################
+########"      __        __               _                     "############
+########"      \ \      / /_ _ _ __ _ __ (_)_ __   __ _         "############
+########"       \ \ /\ / / _` | '__| '_ \| | '_ \ / _` |        "############
+########"        \ V  V / (_| | |  | | | | | | | | (_| |        "############
+########"         \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |        "############
+########"                                         |___/         "############
+########"                                                       "############
+########"   ONLY DRIVER PROPS ALLOWED IN THIS SECTION BEGIN     "############
+########"                                                       "############
+########"                                                       "############
+########"   ONLY DRIVER PROPS ALLOWED IN THIS SECTION END       "############
+#############################################################################
+#############################################################################
+########"      __        __               _                     "############
+########"      \ \      / /_ _ _ __ _ __ (_)_ __   __ _         "############
+########"       \ \ /\ / / _` | '__| '_ \| | '_ \ / _` |        "############
+########"        \ V  V / (_| | |  | | | | | | | | (_| |        "############
+########"         \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |        "############
+########"                                         |___/         "############
+########"                                                       "############
+########"   ONLY PROTOCOL PROPS ALLOWED IN THIS SECTION BEGIN   "############
+net.tethering.noprovisioning=true
+#BEGIN PN:DTS2016032904223  Modified by cWX315496, 2016/03/30
+persist.sys.dualcards=false
+#END   PN:DTS2016032904223  Modified by cWX315496, 2016/03/30
+#BEGIN PN:DTS2016040605327,Modified by lwx299848,2016/4/6
+#BEGIN PN:DTS2015111105543,Add by l00248462,2015/11/11
+ro.config.hw_dsdspowerup=false
+#END PN:DTS2015111105543,Add by l00248462,2015/11/11
+#END PN:DTS2016040605327,Modified by lwx299848,2016/4/6
+#BEGIN PN:DTS2016040605598,Add by lwx299848,2016/4/6
+ro.config.hw_sim2airplane=false
+#END PN:DTS2016040605598,Add by lwx299848,2016/4/6
+#BEGIN PN:DTS2015111602116,Added by p00345816,2015/11/16
+ro.config.hw_globalEcc=true
+#END PN:DTS2015111602116,Added by p00345816,2015/11/16
+#BEGIN PN:DTS2015111705480,Add by z00290953,2015/11/17
+#END PN:DTS2015111705480,Add by z00290953,2015/11/17
+########"                                                       "############
+########"                                                       "############
+########"   ONLY PROTOCOL PROPS ALLOWED IN THIS SECTION END     "############
+#############################################################################
+#############################################################################
+########"      __        __               _                     "############
+########"      \ \      / /_ _ _ __ _ __ (_)_ __   __ _         "############
+########"       \ \ /\ / / _` | '__| '_ \| | '_ \ / _` |        "############
+########"        \ V  V / (_| | |  | | | | | | | | (_| |        "############
+########"         \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |        "############
+########"                                         |___/         "############
+########"                                                       "############
+########"   ONLY APP TEAM PROPS ALLOWED IN THIS SECTION BEGIN   "############
+#####################################################################################
+######## 1.APP MANUFACTURE TEAM BEGIN
+###########1.1.MMI BEGIN
+###########1.1.MMI END
+###########1.2.PROJECT MENU BEGIN
+###########1.2.PROJECT MENU END
+###########1.3.RUN IN TEST BEGIN
+# BEGIN PN:DTS2015121103757 , Added by lixiaoyi 00181423, 2015/12/11
+ro.config.data_preinstalled=true
+# END PN:DTS2015121103757 , Added by lixiaoyi 00181423, 2015/12/11
+###########1.3.RUN IN TEST END
+######## 1.APP MANUFACTURE TEAM END
+#####################################################################################
+######## 2.BASEAPP TEAM BEGIN
+ro.cofig.onlinemusic.enabled=false
+#DTS2018081401563, Deleted by xwx239746, 2018/08/17
+#BEGIN PN: DTS2015120909492, Modifyed by zwx300824, 2016/01/27
+ro.config.hw_floatvideo=true
+#END PN: DTS2015120909492,   Modifyed by zwx300824, 2016/01/27
+ro.config.hw_ReduceSAR=true
+ro.config.hw_showTestInfo=false
+ro.config.hw_lte_support=true
+#DTS2015121601207 z00183245 add begin
+ro.frp.pst=/dev/block/platform/hi_mci.0/by-name/frp
+#DTS2015121601207 z00183245 add end
+#DTS2015112607275 l00248462 20151201 delete begin
+#DTS2015112607275 l00248462 20151201 delete end
+ro.config.hw_simlock_retries =true
+ro.huawei.flag.oma_reboot=true
+# BEGIN PN:DTS2016033109514, Added by lwx206914, 2016/04/01
+# END PN:DTS2016033109514, Added by lwx206914, 2016/04/01
+# BEGIN PN:DTS2016040102499 Added by m00290952 20160401
+ro.dual.sim.phone=false
+# END PN:DTS2016040102499 Added by m00290952 20160401
+# BEGIN PN:DTS2016081008440 Added by lwx288597 2016/08/12
+# END PN:DTS2016081008440 Added by lwx288597 2016/08/12
+#BEGIN PN: DTS2016082701142 ,Added by chenhongqiang cWX315496, 2016/08/27
+ro.config.hw_switchdata_4G=false
+#END   PN: DTS2016082701142 ,Added by chenhongqiang cWX315496, 2016/08/27
+#BEGIN PN: DTS2016082902008,  Added by wwx370325, 2016/08/30
+ro.config.wifi_reduce_power=true,17,17,17,17,12
+#END   PN: DTS2016082902008,  Added by wwx370325, 2016/08/30
+#BEGIN PN: DTS2016102811296, Added by jwx341103, 2016/10/31
+# BEGIN PN:AR00084LRE,Modefied by lWX285236,2016/12/8
+ro.config.marketing_name=HUAWEI GR5 2017
+# END PN:AR00084LRE,Modefied by lWX285236,2016/12/8
+#END   PN: DTS2016102811296, Added by jwx341103, 2016/10/31
+######## 2.BASEAPP TEAM END
+#####################################################################################
+######## 3.MULTI-MEDIA TEAM BEGIN
+######## 3.MULTI-MEDIA TEAM END
+#####################################################################################
+######## 4.FRAMEWORK TEAM BEGIN
+ro.config.hw_channel_info=0,0,0,0
+######## 4.FRAMEWORK TEAM END
+#####################################################################################
+######## 5.DATA SERVICE TEAM BEGIN
+#DTS2015110206867 liqianchuang/00182656 20151109 begin
+ro.config.hw_always_allow_mms=1
+#DTS2015110206867 liqianchuang/00182656 20151109 end
+######## 5.DATA SERVICE TEAM END
+#####################################################################################
+######## 6.APPLET TEAM BEGIN
+######## 6.APPLET TEAM END
+#####################################################################################
+######## 7.PRODUCT INFO BEGIN
+# BEGIN PN:DTS2016042009182 , Modified by lwx288597, 2016/05/03
+ro.product.hardwareversion=HL2BLNM
+# END PN:DTS2016042009182 , Modified by lwx288597, 2016/05/03
+# BEGIN PN:DTS2016040102992, add by jWX273829, 2016/04/01
+ro.product.brand=HUAWEI
+# BEGIN PN:DTS2016062408037  , Modified by swx355999, 2016/06/25
+ro.product.device=HWBLN-H
+# END PN:DTS2016062408037  , Modified by swx355999, 2016/06/25
+# END PN:DTS2016040102992, add by jWX273829, 2016/04/01
+# BEGIN PN:DTS2016040102992, modify by jWX273829, 2016/04/01
+ro.product.name=BLL-L22
+ro.build.id=HUAWEIBLL-L22
+# BEGIN PN:DTS2016071401670  , Modified by swx355999, 2016/07/14
+ro.product.model=BLL-L22
+# END PN:DTS2016071401670 , Modified by swx355999, 2016/07/14
+# END PN:DTS2016040102992, modify by jWX273829, 2016/04/01
+#BEGIN PN: DTS2016012301101,  Added by twx287320, 2016/01/23
+#END   PN: DTS2016012301101,  Added by twx287320, 2016/01/23
+######## 7.PRODUCT INFO END
+#####################################################################################
+########"                                                       "############
+########"                                                       "############
+########"   ONLY APP TEAM PROPS ALLOWED IN THIS SECTION END     "############
+#############################################################################
