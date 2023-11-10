@@ -1,0 +1,1 @@
+vendor/firmware/isp_dts.img.xz
