@@ -1,0 +1,28 @@
+# 2018-10-25 11:10:27.0
+ro.boot.product.hardware.sku=ANE-LX2
+# 2019-02-27 10:52:37.0
+ro.build.id=HUAWEIANE-L42
+# 2018-10-25 11:10:27.0
+ro.config.ce_authenticate=1
+# 2018-10-30 15:06:55.0
+ro.config.hw_charge_frz=true
+# 2018-10-25 11:10:27.0
+ro.config.hw_srlte=true
+# 2018-10-25 11:10:27.0
+ro.config.hw_vowifi_mmsut=true
+# 2018-10-25 11:10:27.0
+ro.config.marketing_name=HUAWEI P20 lite
+# 2018-10-25 11:10:27.0
+ro.config.safety_certification=CE
+# 2018-10-25 11:10:27.0
+ro.product.first_api_level=26
+# 2018-10-25 11:10:27.0
+ro.product.hardwareversion=HL1ANNEM
+# 2018-10-25 11:10:27.0
+ro.product.model=ANE-LX2
+# 2018-10-25 11:10:27.0
+ro.product.name=ANE-LX2
+# 2018-10-25 11:10:27.0
+ro.sysui.show.normal.layout=true
+# 2018-10-25 14:56:21.0
+ro.vendor.config.hw_vowifi=true

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher" version="1">
+    <favorite
+        launcher:packageName="com.hutchison3g.planet3"
+        launcher:className="com.hutchison3g.planet3.SplashScreenActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="4"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="insertinto" />
+    <favorite
+        launcher:packageName="com.hutchison3g.wuntu"
+        launcher:className="com.hutchison3g.wuntu.MainActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="4"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="insertinto" />
+    <favorite
+        launcher:packageName="com.amazon.mShop.android.shopping"
+        launcher:className="com.amazon.mShop.home.HomeActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="5"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="insertinto" />
+    <favorite
+        launcher:packageName="com.amazon.avod.thirdpartyclient"
+        launcher:className="com.amazon.avod.thirdpartyclient.LauncherActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="5"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="insertinto" />
+    <favorite
+        launcher:packageName="com.hutchison3g.threelikes"
+        launcher:className="com.hutchison3g.threelikes.ThreeLikesActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="5"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="insertinto" />
+    <favorite
+        launcher:packageName="com.ebay.mobile"
+        launcher:className="com.ebay.mobile.activities.MainActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="5"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="insertinto" />
+</favorites>

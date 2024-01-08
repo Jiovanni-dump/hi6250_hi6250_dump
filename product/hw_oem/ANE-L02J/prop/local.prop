@@ -1,0 +1,32 @@
+# 2018-10-24 19:51:18.0
+persist.sys.dualcards=false
+# 2018-10-24 19:51:18.0
+ro.boot.product.hardware.sku=ANE-LX2J
+# 2018-10-24 19:51:18.0
+ro.build.id=HUAWEIANE-LX2J
+# 2018-10-24 19:51:18.0
+ro.config.ce_authenticate=1
+# 2019-06-04 17:29:11.0
+ro.config.empty.package=true
+# 2018-10-30 15:06:55.0
+ro.config.hw_charge_frz=true
+# 2018-10-24 19:51:18.0
+ro.config.hw_sim2airplane=false
+# 2018-10-24 19:51:18.0
+ro.config.hw_wifibridge=
+# 2018-10-24 19:51:18.0
+ro.config.marketing_name=HUAWEI P20 lite
+# 2018-10-24 19:51:18.0
+ro.config.safety_certification=FCC,CE
+# 2018-10-24 19:51:18.0
+ro.dual.sim.phone=false
+# 2018-10-24 19:51:18.0
+ro.product.first_api_level=26
+# 2018-10-24 19:51:18.0
+ro.product.hardwareversion=HL3ANNEM
+# 2018-10-24 19:51:18.0
+ro.product.model=ANE-LX2J
+# 2018-10-24 19:51:18.0
+ro.product.name=ANE-LX2J
+
+ro.build.description=ANE-L02J-user 9.1.0 HUAWEIANE-L02J 401-LGRP2-OVS release-keys

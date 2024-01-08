@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packageList>
+	<packageInfo package="com.android.frameworkhwext.nova" feature="通过此功能，手机应用界面可以呈现为NOVA品牌系统换肤的效果，让手机界面的风格更加明快。" author="华为终端有限公司" label="com.android.frameworkhwext.nova">
+	</packageInfo>
+	<packageInfo package="com.android.frameworkres.overlay" feature="定制系统资源。" author="华为终端有限公司" label="com.android.frameworkres.overlay">
+	</packageInfo>
+	<packageInfo package="com.android.systemui.feature_cover" feature="锁屏皮套，为预置该apk的手机提供皮套相关功能" author="华为终端有限公司" label="com.android.systemui.feature_cover">
+	</packageInfo>
+	<packageInfo package="com.android.systemui.overlay" feature="管理设备用户界面SystemUI相关的资源，如：图标大小，边距等。 " author="华为终端有限公司" label="com.android.systemui.overlay">
+	</packageInfo>
+	<packageInfo package="com.huawei.android.FMRadio" feature="提供收音机功能。" author="华为终端有限公司" label="com.huawei.android.FMRadio">
+	</packageInfo>
+	<packageInfo package="com.huawei.android.hwupgradeguide" feature="升级向导可以为您展示新版本的一些有价值的特性。" author="华为软件技术有限公司" label="com.huawei.android.hwupgradeguide">
+	</packageInfo>
+	<packageInfo package="com.huawei.browser" feature="华为浏览器是一款高速、安全、稳定的浏览器，同时具备恶意网址拦截，网页广告过滤，书签云同步等特色功能，欢迎体验。" author="华为软件技术有限公司" label="com.huawei.browser">
+	</packageInfo>
+	<packageInfo package="com.huawei.fido.uafclient" feature="为满足FIDO（快速线上身份认证）协议的应用提供基础能力支持，第三方应用可通过该应用绑定指纹完成在线身份认证。" author="华为终端有限公司" label="com.huawei.fido.uafclient">
+	</packageInfo>
+	<packageInfo package="com.huawei.gameassistant" feature="应用助手是华为官方的安卓游戏应用使用助手。" author="华为软件技术有限公司" label="com.huawei.gameassistant">
+	</packageInfo>
+	<packageInfo package="com.huawei.gamebox" feature="华为游戏中心是华为为游戏开发者和用户提供的服务平台，旨在为您推荐安全、高质量的游戏及丰富便捷的游戏服务。" author="华为软件技术有限公司" label="com.huawei.gamebox">
+	</packageInfo>
+	<packageInfo package="com.huawei.hwasm" feature="为FIDO（快速线上身份认证）协议提供底层能力支撑。" author="华为终端有限公司" label="com.huawei.hwasm">
+	</packageInfo>
+	<packageInfo package="com.huawei.imedia.sws" feature="Huawei Histen音效设置，用户可以根据喜好设置和配置音效均衡器等信息。" author="华为终端有限公司" label="com.huawei.imedia.sws">
+	</packageInfo>
+	<packageInfo package="com.huawei.meetime" feature="“畅连”是基于华为帐号的社交通信服务，提供音视频通话、留言等功能。在 WLAN 或移动数据连接时，您可与拥有华为手机、平板、音箱、智慧屏等设备的联系人进行高清视频或语音通话。" author="华为终端有限公司" label="com.huawei.meetime">
+	</packageInfo>
+	<packageInfo package="com.huawei.mycenter" feature="以“我”为中心，统一管理与华为交互产生的数据、资产、权益；总览、参与华为官方的会员成长与粉丝活动" author="华为软件技术有限公司" label="com.huawei.mycenter">
+	</packageInfo>
+	<packageInfo package="com.huawei.welinknow" feature="Link Now 是为终端消费者用户提供的多场景在线协同与在线教育服务平台，融合消息、会议、直播、在线教学等功能与服务。" author="华为软件技术有限公司" label="com.huawei.welinknow">
+	</packageInfo>
+</packageList>

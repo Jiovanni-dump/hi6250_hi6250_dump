@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher" version="1">
+    <favorite
+        launcher:packageName="com.android.gallery3d"
+        launcher:className="com.huawei.gallery.app.GalleryMain"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1" 
+        launcher:op="insertinto" />
+    <folder
+        launcher:title="O2 Recommends"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="5"
+        launcher:op="insertinto" >
+        <favorite
+            launcher:packageName="uk.co.o2.android.o2space"
+            launcher:className="uk.co.o2.android.o2space.ODP" />
+        <favorite
+            launcher:packageName="com.ebay.mobile"
+            launcher:className="com.ebay.mobile.activities.MainActivity" />
+        <favorite
+            launcher:packageName="com.amazon.mShop.android.shopping"
+            launcher:className="com.amazon.mShop.home.HomeActivity" />
+        <favorite
+            launcher:packageName="com.amazon.kindle"
+            launcher:className="com.amazon.kindle.UpgradePage" />
+        <favorite
+            launcher:packageName="com.amazon.mp3"
+            launcher:className="com.amazon.mp3.client.activity.LauncherActivity" />
+    </folder>
+</favorites>

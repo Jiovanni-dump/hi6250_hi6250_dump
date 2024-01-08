@@ -1,0 +1,26 @@
+# 2021-06-03 17:16:22.0
+hw_mc.launcher.force_uninstallable_hwread=true
+# 2021-04-19 09:50:13.0
+hw_mc.pms.recovery_preset_app=true
+# 2018-10-25 14:26:23.0
+ro.blight.exempt_app_type=-1,1,16,24
+# 2018-10-25 14:26:23.0
+ro.config.blight_power_curve=38,1;57,0.8;100,0.6;300,0.6;320,0.8;340,0.9;360,1
+# 2019-10-08 19:58:29.0
+ro.config.check_battery_error=false
+# 2018-11-22 19:24:05.0
+ro.config.default_sms_app=com.android.mms
+# 2018-10-25 14:26:23.0
+ro.config.hw.security_volume=8
+# 2019-03-05 09:29:16.0
+ro.config.hw.usb_security_volume=8
+# 2018-10-30 15:05:51.0
+ro.config.hw_charge_frz=true
+# 2018-10-25 14:26:23.0
+ro.config.hw_vowifi_mmsut=true
+# 2018-10-25 14:26:23.0
+ro.cust.cdrom=/data/hw_init/product/region_comm/oversea/cdrom/autorun.iso
+# 2018-10-25 14:26:23.0
+ro.frp.pst=/dev/block/bootdevice/by-name/frp
+# 2018-10-25 14:56:21.0
+ro.vendor.config.hw_vowifi=true

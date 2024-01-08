@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher">
+  <favorite launcher:packageName="com.huawei.browser" launcher:className="com.huawei.browser.Main2" launcher:op="addinspace"/>
+  <favorite launcher:packageName="com.huawei.gamebox" launcher:className="com.huawei.gamebox.GameBoxActivity" launcher:op="addinspace"/>
+  <favorite launcher:packageName="com.huawei.hwsearch" launcher:className="com.huawei.hwsearch.splash.SplashActivity" launcher:op="addinspace"/>
+  <folder launcher:title="@string/cust_folder_name_hwapp" launcher:container="-100" launcher:op="addinspace">
+    <favorite launcher:packageName="com.huawei.hwread.dz" launcher:className="com.huawei.reader.launch.impl.splash.SplashScreenActivity"/>
+    <favorite launcher:packageName="com.huawei.welinknow" launcher:className="com.huawei.welinklite.MainActivity"/>
+    <favorite launcher:packageName="com.huawei.mycenter" launcher:className="com.huawei.mycenter.module.main.view.MainActivity"/>
+    <favorite launcher:packageName="com.huawei.maps.app" launcher:className="com.huawei.maps.app.petalmaps.splash.SplashActivity"/>
+    <favorite launcher:packageName="com.huawei.hiassistantoversea" launcher:className="com.huawei.hiassistantoversea.platform.ui.mainui.activity.floatmic.FloatWindowActivity"/>
+    <favorite launcher:packageName="com.huawei.ohos.inputmethod" launcher:className="com.appstore.view.activity.PrimaryActivity"/>
+  </folder>
+</favorites>

@@ -1,0 +1,24 @@
+# 2018-10-25 10:38:41.0
+ro.boot.product.hardware.sku=ANE-LX2J
+# 2018-10-25 10:38:41.0
+ro.build.id=HUAWEIANE-LX2J
+# 2018-10-25 10:38:41.0
+ro.config.ce_authenticate=1
+# 2018-10-30 15:05:51.0
+ro.config.hw_charge_frz=true
+# 2018-10-25 10:38:41.0
+ro.config.hw_wifibridge=false
+# 2018-10-25 10:38:41.0
+ro.config.marketing_name=HUAWEI P20 lite
+# 2018-10-25 10:38:41.0
+ro.config.safety_certification=FCC,CE
+# 2018-10-25 10:38:41.0
+ro.product.first_api_level=26
+# 2018-10-25 10:38:41.0
+ro.product.hardwareversion=HL3ANNEM
+# 2018-10-25 10:38:41.0
+ro.product.model=ANE-LX2J
+# 2018-10-25 10:38:41.0
+ro.product.name=ANE-LX2J
+
+ro.build.description=ANE-L22J-user 9.1.0 HUAWEIANE-L22J 401-LGRP2-OVS release-keys

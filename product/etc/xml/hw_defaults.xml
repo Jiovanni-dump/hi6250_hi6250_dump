@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2019-04-16 19:39:43.0-->
+  <string def_cust_toolbox_tile="wifi,bt,flashlight,sound,rotation,hishare,airplane,data,location,screenshot,ridemode,amVowifi,amVowifi2"/>
+  <!--2018-10-24 14:31:32.0-->
+  <integer fingersense_smartshot_enabled="0"/>
+  <!--2018-10-24 14:31:32.0-->
+  <string plmn_ut_ignore_cs_service="65507"/>
+  <!--2019-02-16 12:07:04.0-->
+  <string settings.global.animator_duration_scale="0.5"/>
+  <!--2018-10-24 14:31:32.0-->
+  <string settings.global.transition_animation_scale="0.5"/>
+  <!--2018-10-24 14:31:32.0-->
+  <string settings.global.window_animation_scale="0.5"/>
+  <!--2018-10-26 16:29:15.0-->
+  <integer settings.secure.game_dnd_mode="2"/>
+  <!--2018-10-26 16:29:15.0-->
+  <integer settings.secure.game_power_save_mode="1"/>
+  <!--2018-10-24 14:31:31.0-->
+  <integer settings.system.sws_mode="3"/>
+</resources>

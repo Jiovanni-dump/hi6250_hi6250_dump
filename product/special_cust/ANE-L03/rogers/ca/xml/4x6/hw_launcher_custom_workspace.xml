@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher" version="1">
+    <favorite
+        launcher:packageName="com.android.mms"
+        launcher:className="com.android.mms.ui.ConversationList"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="insertinto" />
+    <favorite
+        launcher:packageName="com.android.gallery3d"
+        launcher:className="com.huawei.gallery.app.GalleryMain"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="insertinto" />
+    <favorite
+        launcher:packageName="com.fivemobile.myaccount"
+        launcher:className="com.rogers.genesis.ui.splash.SplashActivity"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="3"
+        launcher:y="5"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="insertinto" />
+    <folder
+        launcher:title="Rogers"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="5"
+        launcher:op="insertinto">
+        <favorite
+            launcher:packageName="com.nhl.gc1112.free"
+            launcher:className="com.nhl.gc1112.free.appstart.viewControllers.activities.SplashActivity"
+            launcher:x="0"
+            launcher:y="0" />
+        <favorite
+            launcher:packageName="com.amazon.mShop.android.shopping"
+            launcher:className="com.amazon.mShop.home.HomeActivity"
+            launcher:x="1"
+            launcher:y="0" />
+    </folder>
+
+    <!--DOCK区-->
+    <favorite
+        launcher:packageName="com.google.android.apps.messaging"
+        launcher:className="com.google.android.apps.messaging.ui.ConversationListActivity"
+        launcher:container="-101"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="insert" />
+</favorites>

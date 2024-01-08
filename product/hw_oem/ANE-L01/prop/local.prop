@@ -1,0 +1,42 @@
+# 2018-10-24 17:24:36.0
+persist.sys.dualcards=false
+# 2018-10-24 17:24:36.0
+ro.boot.product.hardware.sku=ANE-LX1
+# 2019-02-27 10:52:37.0
+ro.build.id=HUAWEIANE-L01
+# 2018-10-24 17:24:36.0
+ro.config.ce_authenticate=1
+# 2018-10-24 17:24:36.0
+ro.config.huawei_smallwindow=644,0,1080,2280
+# 2018-10-24 17:24:36.0
+ro.config.hw_camera_nfc_switch=true
+# 2018-10-30 15:06:55.0
+ro.config.hw_charge_frz=true
+# 2018-10-24 17:24:36.0
+ro.config.hw_rcs_product=true
+# 2018-10-24 17:24:36.0
+ro.config.hw_sim2airplane=false
+# 2018-10-24 17:24:36.0
+ro.config.hw_vowifi_mmsut=true
+# 2018-10-24 17:24:36.0
+ro.config.hw_wifibridge=false
+# 2018-10-24 17:24:36.0
+ro.config.marketing_name=HUAWEI P20 lite
+# 2018-10-24 17:24:36.0
+ro.config.safety_certification=FCC,CE
+# 2018-10-24 17:24:36.0
+ro.config.small_cover_size=_401x1920
+# 2018-10-24 17:24:36.0
+ro.dual.sim.phone=false
+# 2018-10-24 17:24:36.0
+ro.product.first_api_level=26
+# 2018-10-24 17:24:36.0
+ro.product.hardwareversion=HL2ANNEM
+# 2018-10-24 17:24:36.0
+ro.product.model=ANE-LX1
+# 2018-10-24 17:24:36.0
+ro.product.name=ANE-LX1
+# 2018-10-25 14:56:21.0
+ro.vendor.config.hw_vowifi=true
+
+ro.build.description=ANE-L01-user 9.1.0 HUAWEIANE-L01 401-LGRP2-OVS release-keys

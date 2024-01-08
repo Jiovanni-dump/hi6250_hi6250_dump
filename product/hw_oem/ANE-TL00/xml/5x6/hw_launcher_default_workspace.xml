@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher">
+
+    <folder
+        launcher:title="@string/cust_folder_name_top_apps"
+        launcher:op="delete"/>
+    <folder
+        launcher:title="@string/cust_folder_name_top_apps"
+        launcher:appid="0"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="2"
+        launcher:op="insertinto">
+        <!--手机营业厅-->
+        <favorite
+            launcher:packageName="com.greenpoint.android.mc10086.activity"
+            launcher:className="com.leadeon.cmcc.base.StartPageActivity"/>
+        <!--咪咕视频-->
+        <favorite
+            launcher:packageName="com.cmcc.cmvideo"
+            launcher:className="com.wondertek.activity.AppFakeActivity"/>
+        <!--139邮箱-->
+        <favorite
+            launcher:packageName="cn.cj.pe"
+            launcher:className="com.mail139.about.LaunchActivity"/>
+        <!--和彩云-->
+        <favorite
+            launcher:packageName="com.chinamobile.mcloud"
+            launcher:className="desktop.icon.active"/>
+    </folder>
+    <folder
+        launcher:title="@string/cust_folder_name_popular_apps"
+        launcher:op="delete"/>
+    <folder
+       launcher:title="@string/cust_folder_name_popular_apps"
+       launcher:appid="15"
+       launcher:container="-100"
+       launcher:screen="1"
+       launcher:x="2"
+       launcher:y="2"
+       launcher:op="insertinto">
+    </folder>
+    <!--必备应用-->
+    <favorite
+        launcher:packageName="com.cmic.mmnes"
+        launcher:className="com.cmic.mmnes.activity.SplashActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="add" />
+</favorites>

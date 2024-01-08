@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tag>
+  <apk>	/system/app/Messages.apk;        /system/priv-app/CarrierService.apk;                /preas/app/Messages.apk;                /preas/app/CarrierService.apk;        /data/hw_init/product/region_comm/oversea/app/HwRideMode.apk;       /data/hw_init/product/region_comm/oversea/app/HwDtmfAnalyzer.apk;       /product/region_comm/oversea/app/HwUserGuide.apk;       /data/hw_init/product/region_comm/oversea/app/MyDigi.apk;  /data/hw_init/product/region_comm/oversea/app/Wnn_Japanese_Ext_Pack-HW.apk;/product/region_comm/oversea/app/MeeTime.apk;</apk>
+  <restoreapk>/system/priv-app/HwIntelligent.apk;</restoreapk>
+  <scan_install_apk packagename="com.huawei.meetime" path="/product/region_comm/oversea/app/MeeTime"/>
+</tag>

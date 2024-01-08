@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2018-10-25 14:26:23.0-->
+  <integer ca_settings_on="1"/>
+  <!--2018-10-25 14:26:23.0-->
+  <string colors_themes="black+black,/data/hw_init/product/region_comm/oversea/themes/Sapphire.hwt;black+pink,/data/hw_init/product/region_comm/oversea/themes/SweetDreams.hwt;black+blue,/data/hw_init/product/region_comm/oversea/themes/Sapphire.hwt;black+gold,/data/hw_init/product/region_comm/oversea/themes/SweetDreams.hwt"/>
+  <!--2018-10-25 14:26:23.0-->
+  <string hw_def_theme="/data/hw_init/product/region_comm/oversea/themes/SweetDreams.hwt"/>
+  <!--2018-10-25 14:26:23.0-->
+  <string hw_theme_sort="Sapphire##Sweet Dreams##Sakura##Fairytale##Speed##Golden##Pink"/>
+  <!--2020-03-28 15:14:25.0-->
+  <string upgrade_guide_activity_path="com.huawei.android.hwupgradeguide.UpgradeWizardActivity"/>
+</resources>

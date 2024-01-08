@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PA_TEST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <PA_PDET>
+        <TEST_ITEM  name="RT_WCDMA_B01_PDET;703019001" desc="PA WCDMA PDET"
+            target="balong"
+            cmdInit="AT^CURC=0"
+            cmdOn="AT^TMODE=1;AT^FCHAN=0,0,9750;AT^FWAVE=0,2000;AT^FTXON=0;AT^FTXON=1"
+            cmdResult="AT^FPOWDET?"
+            cmdOff="AT^FTXON=0;AT^MODEM=0"
+            cmdResultPrefix="OK^FPOWDET:"
+            limit="[160:240]"
+            cmdInterval="500;3000;1000;0"
+            cmdInnerInterval=""
+            cmdNextItemInterval="3000"
+            errorCodeBelowThreshold="701010004"
+            errorCodeAboveThreshold="701010005">
+        </TEST_ITEM>
+        <TEST_ITEM  name="RT_WCDMA_B05_PDET;703019002" desc="PA WCDMA PDET"
+            target="balong"
+            cmdInit="AT^CURC=0"
+            cmdOn="AT^TMODE=1;AT^FCHAN=0,7,4182;AT^FWAVE=0,2000;AT^FTXON=0;AT^FTXON=1"
+            cmdResult="AT^FPOWDET?"
+            cmdOff="AT^FTXON=0;AT^MODEM=0"
+            cmdResultPrefix="OK^FPOWDET:"
+            limit="[160:240]"
+            cmdInterval="500;3000;1000;0"
+            cmdInnerInterval=""
+            cmdNextItemInterval="3000"
+            errorCodeBelowThreshold="701010031"
+            errorCodeAboveThreshold="701010032">
+        </TEST_ITEM>
+    </PA_PDET>
+
+    <PA_CURRENT>
+        <TEST_ITEM  name="RT_MAIN_MODEM_WCDMA_B01_CURRENT;703006004" desc="射频电流主Modem WCDMA B1频段"
+            target="balong"
+            cmdInit="AT+CFUN=0;AT^MODEM=0"
+            cmdOn="AT^CURC=0;AT^TMODE=1;AT^FCHAN=0,0,9750;AT^FWAVE=0,2000;AT^FTXON=0;AT^FTXON=1"
+            cmdResult=""
+            cmdOff="AT^FTXON=0"
+            cmdResultPrefix=""
+            limit="[-600:0]"
+            cmdInterval="5000;500;0;1000"
+            cmdInnerInterval="0;500;0;0"
+            cmdNextItemInterval="0"
+            errorCodeBelowThreshold="701010019"
+            errorCodeAboveThreshold="701010019">
+        </TEST_ITEM>
+        <TEST_ITEM  name="RT_MAIN_MODEM_WCDMA_B05_CURRENT;703006005" desc="射频电流主Modem WCDMA B5频段"
+            target="balong"
+            cmdInit=""
+            cmdOn="AT^CURC=0;AT^TMODE=1;AT^FCHAN=0,7,4182;AT^FWAVE=0,2000;AT^FTXON=0;AT^FTXON=1"
+            cmdResult=""
+            cmdOff="AT^FTXON=0"
+            cmdResultPrefix=""
+            limit="[-600:0]"
+            cmdInterval="0;500;0;1000"
+            cmdInnerInterval="0;500;0;0"
+            cmdNextItemInterval="0"
+            errorCodeBelowThreshold="701010020"
+            errorCodeAboveThreshold="701010020">
+        </TEST_ITEM>
+        <TEST_ITEM  name="RT_MAIN_MODEM_LTE_B39_CURRENT;703006001" desc="射频电流主Modem LTE B39频段"
+            target="balong"
+            cmdInit=""
+            cmdOn="AT^CURC=0;AT^TMODE=1;AT^FCHAN=6,2,19575;AT^FWAVE=5,2000;AT^FTXON=0;AT^FTXON=1"
+            cmdResult=""
+            cmdOff="AT^FTXON=0"
+            cmdResultPrefix=""
+            limit="[-600:0]"
+            cmdInterval="0;500;0;1000"
+            cmdInnerInterval="0;500;0;0"
+            cmdNextItemInterval="0"
+            errorCodeBelowThreshold="701010021"
+            errorCodeAboveThreshold="701010021">
+        </TEST_ITEM>
+        <TEST_ITEM  name="RT_MAIN_MODEM_LTE_B40_CURRENT;703006002" desc="射频电流主Modem LTE B40频段"
+            target="balong"
+            cmdInit=""
+            cmdOn="AT^CURC=0;AT^TMODE=1;AT^FCHAN=6,10,21100;AT^FWAVE=5,2000;AT^FTXON=0;AT^FTXON=1"
+            cmdResult=""
+            cmdOff="AT^FTXON=0"
+            cmdResultPrefix=""
+            limit="[-600:0]"
+            cmdInterval="0;500;0;1000"
+            cmdInnerInterval="0;500;0;0"
+            cmdNextItemInterval="0"
+            errorCodeBelowThreshold="701010022"
+            errorCodeAboveThreshold="701010022">
+        </TEST_ITEM>
+        <TEST_ITEM  name="RT_MAIN_MODEM_LTE_B41_CURRENT;703006003" desc="射频电流主Modem LTE B41频段"
+            target="balong"
+            cmdInit=""
+            cmdOn="AT^CURC=0;AT^TMODE=1;AT^FCHAN=7,28,40540;AT^FWAVE=5,2000;AT^FTXON=0;AT^FTXON=1"
+            cmdResult=""
+            cmdOff="AT^FTXON=0"
+            cmdResultPrefix=""
+            limit="[-800:0]"
+            cmdInterval="0;500;0;1000"
+            cmdInnerInterval="0;500;0;0"
+            cmdNextItemInterval="0"
+            errorCodeBelowThreshold="701010023"
+            errorCodeAboveThreshold="701010023">
+        </TEST_ITEM>
+    </PA_CURRENT>
+
+    <PA_MIPI>
+        <TEST_ITEM  name="RT_PA_MIPI;703019003" desc="MIPI 回读"
+            target="balong"
+            cmdInit=""
+            cmdOn="AT^TMODE=1;AT^FCHAN=0,0,9750;AT^MIPIWR=0,5,0,7,0;AT^MIPIWR=0,6,0,7,0;AT^MIPIWR=0,9,0,7,0"
+            cmdResult="AT^MIPIRD=0,0,5,0;AT^MIPIRD=0,0,6,0;AT^MIPIRD=0,0,9,0"
+            cmdOff=""
+            cmdResultPrefix="OK^MIPIRD:"
+            limit="[7:7];[7:7];[7:7]"
+            cmdInterval=""
+            cmdInnerInterval=""
+            cmdNextItemInterval="500"
+            errorCodeBelowThreshold="701010012"
+            errorCodeAboveThreshold="701010012">
+        </TEST_ITEM>
+    </PA_MIPI>
+
+</PA_TEST>

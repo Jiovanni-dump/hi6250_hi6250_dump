@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher" version="3">
+    <!--左起第 0 屏-->
+    <favorite
+        launcher:packageName="com.orange.mobile.ecare"
+        launcher:className="com.orange.mobile.ecare.MainActivity"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="3"
+        launcher:y="2"
+        launcher:spanX="1"
+        launcher:spanY="1" 
+        launcher:op="insertinto"/>
+    <!--<favorite
+        launcher:packageName="com.kuackmedia.orange"
+        launcher:className="com.kuackmedia.orange.MainActivity"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="3"
+        launcher:y="2"
+        launcher:spanX="1"
+        launcher:spanY="1" 
+        launcher:op="insertinto"/> -->
+</favorites>

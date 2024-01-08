@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher" version="2">
+<!-- STK Position -->
+    <favorite
+        launcher:packageName="com.android.stk"
+        launcher:className="com.android.stk.StkLauncherActivity"
+        launcher:op="delete"/>
+    <favorite
+        launcher:packageName="com.android.stk"
+        launcher:className="com.android.stk.StkLauncherActivity2"
+        launcher:op="delete"/>
+    <favorite
+        launcher:packageName="com.android.stk"
+        launcher:className="com.android.stk.StkLauncherActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:op="add"/>
+
+<!-- AR000BJD0P yangwenwei ywx570472 20190320 begin-->
+    <favorite
+        launcher:packageName="com.android.gallery3d"
+        launcher:className="com.huawei.gallery.app.GalleryMain"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="insertinto" />
+    <folder
+        launcher:title="Movistar"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="5"
+        launcher:op="insertinto">
+        <favorite
+            launcher:packageName="com.telefonica.mimovistar"
+            launcher:className="com.consystec.plugins.MyAmtUnityActivity"/>
+        <favorite
+            launcher:packageName="sv.movistar.go"
+            launcher:className="com.pdi.mca.go.login.activities.LoginActivity"/>
+        <favorite
+            launcher:packageName="com.netflix.mediaclient"
+            launcher:className="com.netflix.mediaclient.ui.launch.UIWebViewActivity"/>
+        <favorite
+            launcher:packageName="com.terra.appcreator.tiendamovistar"
+            launcher:className="terra.movistarstore.Activity.LoaderActivity"/>
+        <favorite
+            launcher:packageName="com.amazon.mShop.android.shopping"
+            launcher:className="com.amazon.mShop.home.HomeActivity"/>
+    </folder>
+
+    <favorite
+        launcher:packageName="com.huawei.gamebox.global"
+        launcher:className="com.huawei.higame.MainActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="add" />
+    <favorite
+        launcher:packageName="com.facebook.katana"
+        launcher:className="com.facebook.katana.LoginActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="add" />
+
+    <favorite
+        launcher:packageName="com.gameloft.android.GloftMOTR"
+        launcher:className="com.gameloft.android.GloftMOTR.Start"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="add" />
+    <favorite
+        launcher:packageName="com.gameloft.android.GloftMC4M"
+        launcher:className="com.gameloft.android.GloftMC4M.Start"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="add" />
+    <favorite
+        launcher:packageName="com.gameloft.android.GloftSMIF"
+        launcher:className="com.gameloft.android.GloftSMIF.Start"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="add" />
+    <favorite
+        launcher:packageName="com.gameloft.android.GloftDMKF"
+        launcher:className="com.gameloft.android.GloftDMKF.Start"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="add" />
+    <favorite
+        launcher:packageName="com.gameloft.android.GloftDBMF"
+        launcher:className="com.gameloft.android.GloftDBMF.Start"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="add" />
+
+    <!--桌面小工具-->
+    <appwidget
+        launcher:packageName="com.gameloft.android.gdc"
+        launcher:className="com.gameloft.android.gdc.GDCWidgetProvider"
+        launcher:container="-100"
+        launcher:screen="2"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="5"
+        launcher:spanY="4"
+        launcher:op="insertinto"/>
+<!-- AR000BJD0P yangwenwei ywx570472 20190320 end-->
+</favorites>

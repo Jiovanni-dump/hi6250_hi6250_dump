@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RoundCornerDisplay>
+    <LCDModel Name="default">
+        <SurfaceConfig>
+            <TopSurface Support="true" DisplayMode="1" />
+            <BottomSurface Support="false" DisplayMode="0" />
+        </SurfaceConfig>
+        <ROG Width="1080" Height="2280">
+            <Portrait>
+                <LayerUp Filename="port_up.png" OffsetX="0" OffsetY="0" />
+                <LayerDown Filename="port_down.png" OffsetX="0" OffsetY="0" />
+                <LayerHide Filename="hide_up.png" OffsetX="0" OffsetY="0" />
+            </Portrait>
+            <Landscape>
+                <LayerUp Filename="land_up.png" OffsetX="0" OffsetY="0" />
+            </Landscape>
+        </ROG>
+
+        <ROG Width="720" Height="1520">
+            <Portrait>
+                <LayerUp Filename="port_up_rog720.png" OffsetX="0" OffsetY="0" />
+                <LayerDown Filename="port_down_rog720.png" OffsetX="0" OffsetY="0" />
+                <LayerHide Filename="hide_up_rog720.png" OffsetX="0" OffsetY="0" />
+            </Portrait>
+            <Landscape>
+                <LayerUp Filename="land_up_rog720.png" OffsetX="0" OffsetY="0" />
+            </Landscape>
+        </ROG>
+    </LCDModel>
+    <LayerPortraitMask Mask="true" />
+</RoundCornerDisplay>

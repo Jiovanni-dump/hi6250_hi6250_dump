@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="295787f4bd79203b286b1570d6e93171">
+  <dict>
+    <!--2019-04-13 17:26:21.0-->
+    <bool key="carrier_volte_available_bool">true</bool>
+    <!--2019-04-24 10:20:55.0-->
+    <bool key="carrier_wfc_ims_available_bool">true</bool>
+  </dict>
+</config>

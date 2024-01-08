@@ -1,0 +1,6 @@
+/data/hw_init/product/region_comm/oversea/app/HwBetaClub/HwBetaClub.apk
+/data/hw_init/product/region_comm/oversea/app/HwDtmfAnalyzer/HwDtmfAnalyzer.apk
+/data/hw_init/product/region_comm/oversea/app/HwRideMode/HwRideMode.apk
+/product/region_comm/oversea/app/ProjectMenuAct/ProjectMenuAct.apk,priv
+/product/region_comm/oversea/app/SwiftKey/SwiftKey.apk
+/product/region_comm/oversea/app/SwiftKeyFactorySettings/SwiftKeyFactorySettings.apk

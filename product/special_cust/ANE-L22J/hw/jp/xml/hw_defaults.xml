@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2019-01-28 15:48:45.0-->
+  <string authenticate_by_product="Hide_all_cust_Authen"/>
+  <!--2019-01-28 15:48:45.0-->
+  <string custom_certify_picture="/product/special_cust/ANE-L22J/hw/jp/media/ANE-L22J.png"/>
+  <!--2019-01-15 14:47:11.0-->
+  <string forbid_2g_mcc="440,441"/>
+</resources>

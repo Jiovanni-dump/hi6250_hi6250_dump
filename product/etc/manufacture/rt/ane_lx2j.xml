@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<config>
+    <!-- 老化配置xml中的所有时间均为ms，需自行转换为小时 -->
+    <!-- itemKeyName：老化代码中识别的测试项名称，勿动 -->
+    <!-- switchOrPara：代码中识别是开关还是参数（switch - 开关，para - 参数），勿动 -->
+    <!-- value：外领域需关注的值，true、false为开关是否打开，至于测试项的次数默认不要修改 -->
+    <!-- desc：描述字段，用于给外领域提示该为哪个测试项，代码中不会处理 -->
+    <!-- owner：该字段由哪个责任人/领域负责，代码中不会处理 -->
+
+    <!-- 1.1 通用：老化超时、轮数 -->
+    <testItem paraValue="false" itemKeyName="testParameterViewSwitch" switchOrPara="switch" />
+    <testItem paraValue="true" itemKeyName="rtTimeOutTestSwitch" switchOrPara="switch" desc="老化超时检测" owner="应用生产" />
+    <testItem paraValue="8" itemKeyName="cycleTime" switchOrPara="para" desc="升降温循环轮数" owner="应用生产" />
+    <testItem paraValue="1800000" itemKeyName="rtInnerTemperCycleTime" switchOrPara="para" desc="一轮升降温测试时长ms" owner="应用生产" />
+    <testItem paraValue="18900000" itemKeyName="rtOutCycleTime" switchOrPara="para" desc="升降温循环外测试限制时长ms" owner="应用生产" />
+    <testItem paraValue="3600000" itemKeyName="rtTestFloatTime" switchOrPara="para" desc="老化超时检测浮动时间ms" owner="应用生产" />
+    <!-- 1.2 通用：检测项 -->
+    <testItem paraValue="true" itemKeyName="i2cCheckSwitch" switchOrPara="switch" desc="i2c器件检测" owner="驱动：器件（沈金明）" />
+    <testItem paraValue="true" itemKeyName="cpuOnlineCheckSwitch" switchOrPara="switch" desc="CPU上电核数检测" owner="驱动：OS（孙继龙）" />
+    <testItem paraValue="false" itemKeyName="socVoltOffsetSwitch" switchOrPara="switch" desc="SOC电压拉偏测试" owner="驱动：OS（孙继龙）" />
+    <testItem paraValue="true" itemKeyName="chargeControlSwitch" switchOrPara="switch" desc="电量控制/充放电测试" owner="驱动：电池（李士亮）" />
+    <testItem paraValue="true" itemKeyName="batteryWaveSwitch" switchOrPara="switch" desc="高压充电检测" owner="驱动：电池（李士亮）" />
+    <testItem paraValue="false" itemKeyName="lcdBackLightTestSwitch" switchOrPara="switch" desc="LCD背光IC短路检测" owner="驱动：LCD（任喜刚、董玉龙）" />
+    <testItem paraValue="false" itemKeyName="dmdPartIgnoredSwitch" switchOrPara="switch" desc="DMD部分检测屏蔽项（只有FRD使用了）" owner="驱动" />
+
+
+    <!-- 2 升降温循环测试前 -->
+    <testItem paraValue="false" itemKeyName="foreddrMemTestSwitch" switchOrPara="switch" desc="前台DDR memtest测试项（高通）" owner="驱动：OS（孙继龙）" />
+    <testItem paraValue="true" itemKeyName="hibenchTestSwitch" switchOrPara="switch" desc="hibench海思芯片一致性检测" owner="驱动：OS（孙继龙）" />
+    <testItem paraValue="true" itemKeyName="ddrScreenTestSwitch" switchOrPara="switch" desc="DDR全空间扫描" owner="驱动：OS（孙继龙）" />
+    <testItem paraValue="false" itemKeyName="ddrSblTestSwitch" switchOrPara="switch" desc="ddr sbl测试（高通特有）" owner="驱动：OS（孙继龙）" />
+    <testItem paraValue="false" itemKeyName="ufsTestSwitch" switchOrPara="switch" desc="UFS测试" owner="驱动：存储（陈锐）" />
+    <testItem paraValue="true" itemKeyName="emmcRecoveryTestSwitch" switchOrPara="switch" desc="emmcRecovery测试" owner="驱动：存储（陈锐）" />
+    <testItem paraValue="false" itemKeyName="storageJoblessTestSwitch" switchOrPara="switch" desc="存储器件无业务测试" owner="驱动：存储（陈锐）" />
+    <testItem paraValue="true" itemKeyName="gpuSltTestSwitch" switchOrPara="switch" desc="GPU SLT测试" owner="驱动：LCD（任喜刚、董玉龙）" />
+    <testItem paraValue="true" itemKeyName="l2CacheSwitchFirst" switchOrPara="switch" desc="L2 cache（前）检测" owner="驱动：OS（孙继龙）" />
+    <testItem paraValue="true" itemKeyName="autoRebootSwitch" switchOrPara="switch" desc="反复重启测试（默认50次）" owner="硬件、射频" />
+        <testItem paraValue="true" itemKeyName="pdetSwitch" switchOrPara="switch" desc="射频PDET测试（反复重启子项）" owner="射频" />
+        <testItem paraValue="true" itemKeyName="paMipiSwitch" switchOrPara="switch" desc="射频PA MIPI测试（反复重启子项）" owner="射频" />
+        <testItem paraValue="true" itemKeyName="wifiFemSwitch" switchOrPara="switch" desc="射频WIFI FEM器件失效检测（反复重启子项）" owner="射频" />
+        <testItem paraValue="false" itemKeyName="fpgaTestSwitch" switchOrPara="switch" desc="FPGA检测（反复重启子项）" owner="驱动" />
+        <testItem paraValue="true" itemKeyName="micPowerOnSwitch" switchOrPara="switch" desc="MIC上下电检测（反复重启子项）" owner="硬件" />
+    <testItem paraValue="false" itemKeyName="lcdGramChecksumTestSwitch" switchOrPara="switch" desc="LCD Gram checksum" owner="驱动：LCD（任喜刚、董玉龙）" />
+
+
+    <!-- 3 升降温循环测试 -->
+    <!-- 3.1.1 升温一：LCD测试 -->
+    <testItem paraValue="true" itemKeyName="lcdTestSwitch" switchOrPara="switch" desc="升温一：LCD测试" owner="驱动：LCD（任喜刚、董玉龙）" />
+        <testItem paraValue="true" itemKeyName="lcdPixelTestSwitch" switchOrPara="switch" desc="LCD竖条纹测试（黑色图片替换为小方格图片）" owner="驱动：LCD（任喜刚、董玉龙）" />
+        <testItem paraValue="true" itemKeyName="temperCycleddrMemTestSwitch" switchOrPara="switch" desc="后台DDR memtest测试项" owner="驱动：OS（孙继龙）" />
+        <testItem paraValue="true" itemKeyName="lcdGramInversionTestSwitch" switchOrPara="switch" desc="LCD点翻转显示测试" owner="驱动：LCD（任喜刚、董玉龙）" />
+    <testItem paraValue="true" itemKeyName="ledLightTestSwitch" switchOrPara="switch" desc="三色灯测试" owner="驱动：LCD（任喜刚、董玉龙）" />
+    <!-- 3.1.2升温一：后台测试 -->
+    <testItem paraValue="true" itemKeyName="backgroundItemSwitchFirstPeriod" switchOrPara="switch" desc="升温一后台测试项开关" owner="应用生产" />
+        <testItem paraValue="true" itemKeyName="cpuHighLoadedSwitchFirstPeriod" switchOrPara="switch" desc="CPU高负载" owner="驱动：OS（孙继龙）" />
+        <testItem paraValue="true" itemKeyName="audioTestSwitchFirstPeriod" switchOrPara="switch" desc="音频播放测试" owner="驱动：音频（苏俊峰）" />
+        <testItem paraValue="true" itemKeyName="vibrateSwitchFirstPeriod" switchOrPara="switch" desc="马达震动测试（明确马达的类型）" owner="硬件" />
+            <testItem paraValue="2000" itemKeyName="vibrateOnTime" switchOrPara="para" desc="马达震动测试之震动时长（配合vibrateOffTime）" owner="硬件" />
+            <testItem paraValue="1000" itemKeyName="vibrateOffTime" switchOrPara="para" desc="马达震动测试之停震时长（非线性马达配置1000，其他的为0）" owner="硬件" />
+        <testItem paraValue="true" itemKeyName="tpRangeCheckSwitchFirstPeriod" switchOrPara="switch" desc="TP容值检测" owner="驱动：TP" />
+        <testItem paraValue="false" itemKeyName="smartPASwitchFirstPeriod" switchOrPara="switch" desc="smartPA测试" owner="驱动：音频（苏俊峰）" />
+        <testItem paraValue="false" itemKeyName="smartPAStressSwitchFirstPeriod" switchOrPara="switch" desc="smartPA压力测试" owner="驱动：音频（苏俊峰）" />
+        <testItem paraValue="false" itemKeyName="lcdCurrentVoltageSwitchFirstPeriod" switchOrPara="switch" desc="LCD电流电压测试" owner="驱动：LCD（任喜刚、董玉龙）" />
+        <testItem paraValue="false" itemKeyName="pcdErrFlagFirstPeriod" switchOrPara="switch" desc="PCD ErrFlag测试" owner="驱动：LCD（任喜刚、董玉龙）" />
+        <testItem paraValue="false" itemKeyName="airPressSensorSwitchFirstPeriod" switchOrPara="switch" desc="气压计测试" owner="驱动：Sensor（张晶）" />
+        <testItem paraValue="true" itemKeyName="subMicSilenceTestSwitch" switchOrPara="switch" desc="副mic无声检测" owner="驱动：音频（苏俊峰）" />
+        <testItem paraValue="false" itemKeyName="keypadTestSwitchFirstPeriod" switchOrPara="switch" desc="键盘灯测试" owner="驱动：LCD（任喜刚、董玉龙）" />
+    <!-- 3.2.1 降温一：音频环回 -->
+    <testItem paraValue="true" itemKeyName="audioLoopSwitchFirstPeriod" switchOrPara="switch" desc="降温一：音频环回测试" owner="驱动：音频（苏俊峰）" />
+        <testItem paraValue="true" itemKeyName="audioLoopSwitchMainMic" switchOrPara="switch" desc="主mic（喇叭spk）测试" owner="驱动：音频（苏俊峰）" />
+        <testItem paraValue="true" itemKeyName="audioLoopSwitchSubMic" switchOrPara="switch" desc="副mic（听筒rev）测试" owner="驱动：音频（苏俊峰）" />
+        <testItem paraValue="false" itemKeyName="audioLoopSwitchMainMic2" switchOrPara="switch" desc="主mic2（喇叭spk）测试" owner="驱动：音频（苏俊峰）" />
+        <testItem paraValue="false" itemKeyName="audioLoopSwitchSubMic2" switchOrPara="switch" desc="副mic2（听筒rev）测试" owner="驱动：音频（苏俊峰）" />
+        <testItem paraValue="false" itemKeyName="audioLoopSwitchEMic" switchOrPara="switch" desc="Emic测试（高通特有）" owner="驱动：音频（苏俊峰）" />
+        <testItem paraValue="false" itemKeyName="headphoneSinSwitch" switchOrPara="switch" desc="耳机自检" owner="驱动：音频（苏俊峰）" />
+        <testItem paraValue="false" itemKeyName="receiverSinSwitch" switchOrPara="switch" desc="听筒自检" owner="驱动：音频（苏俊峰）" />
+        <testItem paraValue="false" itemKeyName="voiceRouseSwitch" switchOrPara="switch" desc="语音唤醒" owner="驱动：音频（苏俊峰）" />
+    <!-- 3.2.3 降温一：器件检测 -->
+    <testItem paraValue="true" itemKeyName="instrumentsTestSwitchFirstPeriod" switchOrPara="switch" desc="器件检测开关（降温一）" owner="应用生产" />
+        <testItem paraValue="true" itemKeyName="instrumentWifiSwitch" switchOrPara="switch" desc="wifi器件检测（启动/打开）" owner="驱动：近场通信（宋川）" />
+        <testItem paraValue="true" itemKeyName="instrumentBtSwitch" switchOrPara="switch" desc="BT器件检测（打开、扫描）" owner="驱动：近场通信（牛永民）" />
+        <testItem paraValue="true" itemKeyName="instrumentApproachSwitch" switchOrPara="switch" desc="接近光器件检测" owner="驱动：Sensor（张晶）" />
+        <testItem paraValue="true" itemKeyName="instrumentGravitySwitch" switchOrPara="switch" desc="重力感应器件检测" owner="驱动：Sensor（张晶）" />
+        <testItem paraValue="true" itemKeyName="instrumentGyroScopeSwitch" switchOrPara="switch" desc="陀螺仪器件检测" owner="驱动：Sensor（张晶）" />
+        <testItem paraValue="true" itemKeyName="instrumentGpsSwitch" switchOrPara="switch" desc="GPS器件检测（启动）" owner="驱动：近场通信（李康）" />
+        <testItem paraValue="true" itemKeyName="instrumentCameraSwitch" switchOrPara="switch" desc="CAMERA器件检测" owner="硬件、驱动：camera" />
+        <testItem paraValue="true" itemKeyName="instrumentEnvLightSwitch" switchOrPara="switch" desc="环境光器件检测" owner="驱动：Sensor（张晶）" />
+        <testItem paraValue="false" itemKeyName="instrumentNfcSwitch" switchOrPara="switch" desc="NFC器件检测（打开关闭）" owner="驱动：近场通信（赵耀松）" />
+        <testItem paraValue="false" itemKeyName="instrumentLedSwitch" switchOrPara="switch" desc="LED器件检测（键盘灯亮灭）" owner="驱动：LCD（任喜刚、董玉龙）" />
+        <testItem paraValue="true" itemKeyName="instrumentMicSwitch" switchOrPara="switch" desc="MIC通道检测" owner="驱动：音频（苏俊峰）" />
+        <testItem paraValue="true" itemKeyName="instrumentCompassSwitch" switchOrPara="switch" desc="指南针器件检测" owner="驱动：Sensor（张晶）" />
+        <testItem paraValue="false" itemKeyName="instrumentInfraredSwitch" switchOrPara="switch" desc="红外器件老化检测" owner="硬件、驱动：近场通信（夏之森）" />
+    <!-- 3.2.4 降温一：休眠唤醒 -->
+    <testItem paraValue="true" itemKeyName="systemDormancySwitchFirstPeriod" switchOrPara="switch" desc="深度休眠唤醒（降温一）" owner="驱动：LCD（任喜刚、董玉龙）" />
+        <testItem paraValue="true" itemKeyName="lcdFlashTestSwitchFirstPeriod" switchOrPara="switch" desc="LCD熄灭屏测试（休眠唤醒后check LCD的reg）" owner="驱动：LCD（任喜刚、董玉龙）" />
+    <!-- 3.3.1 升温二：视频播放 -->
+    <testItem paraValue="true" itemKeyName="videoTestSwitch" switchOrPara="switch" desc="升温二：Video测试" owner="应用生产" />
+    <!-- 3.3.2 升温二：后台测试 -->
+    <testItem paraValue="true" itemKeyName="backgroundItemSwitchSecondPeriod" switchOrPara="switch" desc="升温二后台测试项开关" owner="应用生产" />
+        <testItem paraValue="true" itemKeyName="cpuHighLoadedSwitchSecondPeriod" switchOrPara="switch" desc="CPU高负载" owner="驱动：OS（孙继龙）" />
+        <testItem paraValue="true" itemKeyName="vibrateSwitchSecondPeriod" switchOrPara="switch" desc="马达震动测试" owner="硬件" />
+        <testItem paraValue="true" itemKeyName="tpRangeCheckSwitchSecondPeriod" switchOrPara="switch" desc="TP容值检测" owner="驱动：TP" />
+        <testItem paraValue="false" itemKeyName="airPressSensorSwitchSecondPeriod" switchOrPara="switch" desc="气压计测试" owner="驱动：Sensor（张晶）" />
+        <testItem paraValue="true" itemKeyName="mainMicSilenceTestSwitch" switchOrPara="switch" desc="主mic无声检测" owner="驱动：音频（苏俊峰）" />
+        <testItem paraValue="false" itemKeyName="keypadTestSwitchSecondPeriod" switchOrPara="switch" desc="键盘灯测试" owner="驱动：LCD（任喜刚、董玉龙）" />
+    <!-- 3.4.1 降温二：音频环回 -->
+    <testItem paraValue="true" itemKeyName="audioLoopSwitchSecondPeriod" switchOrPara="switch" desc="降温二：音频环回测试" owner="驱动：LCD（任喜刚、董玉龙）" />
+    <!-- 3.4.3 降温二：器件检测 -->
+    <testItem paraValue="true" itemKeyName="instrumentsTestSwitchSecondPeriod" switchOrPara="switch" desc="器件检测开关（降温二）" owner="应用生产" />
+    <testItem paraValue="true" itemKeyName="systemDormancySwitchSecondPeriod" switchOrPara="switch" desc="深度休眠唤醒（降温二）" owner="驱动：LCD（任喜刚、董玉龙）" />
+
+
+    <!-- 4 升降温循环测试后 -->
+    <testItem paraValue="true" itemKeyName="cameraChecksumSwitch" switchOrPara="switch" desc="camera checksum测试（默认10次）" owner="camera" />
+    <testItem paraValue="true" itemKeyName="cameraTakePictureSwitch" switchOrPara="switch" desc="camera拍照测试（默认100次，内有多个小项）" owner="camera" />
+        <testItem paraValue="false" itemKeyName="lcdBacklightEnhanceSwitch" switchOrPara="switch" desc="CAMERA拍照时LCD前置背光补光（只上了分支，还没有回主干）" owner="驱动：LCD（任喜刚、董玉龙）" />
+        <testItem paraValue="true" itemKeyName="cameraBurstTakePictureSwitch" switchOrPara="switch" desc="camera连拍" owner="camera" />
+        <testItem paraValue="false" itemKeyName="cameraOisTestSwitch" switchOrPara="switch" desc="camera ois测试" owner="camera" />
+        <testItem paraValue="true" itemKeyName="backCameraVcmTestSwitch" switchOrPara="switch" desc="后camera推马达（AF）测试" owner="camera" />
+        <testItem paraValue="false" itemKeyName="frontCameraVcmTestSwitch" switchOrPara="switch" desc="前camera推马达（AF）测试" owner="camera" />
+        <testItem paraValue="false" itemKeyName="cameraGyroTestSwitch" switchOrPara="switch" desc="camera ois 陀螺仪测试" owner="camera" />
+        <testItem paraValue="false" itemKeyName="frontFlashLightSwitch" switchOrPara="switch" desc="前置闪光灯测试" owner="camera" />
+        <testItem paraValue="false" itemKeyName="cameraIvpDspTestSwitch" switchOrPara="switch" desc="IVP拍照（只上5.1，没回6.0）" owner="camera" />
+    <testItem paraValue="false" itemKeyName="cameraOcramTestSwitch" switchOrPara="switch" desc="camera ocram测试" owner="camera" />
+    <testItem paraValue="true" itemKeyName="fingerprintTestSwitch" switchOrPara="switch" desc="指纹测试（与指纹单项测试互斥）" owner="Sensor" />
+    <testItem paraValue="false" itemKeyName="fpcSingleTestSwitch" switchOrPara="switch" desc="指纹单项测试（只适用于不带指纹模组的测试，与指纹测试互斥，且只在FRD中使用了）" owner="Sensor" />
+    <testItem paraValue="true" itemKeyName="workCurrentTestSwitch" switchOrPara="switch" desc="工作电流测试" owner="器件/硬件" />
+        <testItem paraValue="false" itemKeyName="eightWayVoltageSwitch" switchOrPara="switch" desc="IDLE下8路电源检测" owner="器件/硬件" />
+        <testItem paraValue="true" itemKeyName="lcdMinBrightSwitch" switchOrPara="switch" desc="屏幕最暗电流测试" owner="器件/硬件" />
+        <testItem paraValue="true" itemKeyName="lcdMaxBrightSwitch" switchOrPara="switch" desc="屏幕最亮电流测试" owner="器件/硬件" />
+            <testItem paraValue="false" itemKeyName="q4ImpedanceSwitch" switchOrPara="switch" desc="Q4阻抗测试" owner="器件/硬件" />
+        <testItem paraValue="true" itemKeyName="wifiCurrentSwitch" switchOrPara="switch" desc="wifi发射电流测试" owner="器件/硬件" />
+        <testItem paraValue="true" itemKeyName="btCurrentSwitch" switchOrPara="switch" desc="BT发射电流测试（打开、扫描）" owner="器件/硬件" />
+        <testItem paraValue="true" itemKeyName="gpsCurrentSwitch" switchOrPara="switch" desc="GPS发射电流测试（打开、获取位置）" owner="器件/硬件" />
+        <testItem paraValue="true" itemKeyName="flashLightFirstSwitch" switchOrPara="switch" desc="后置闪光灯1电流测试（冷光灯）" owner="器件/硬件" />
+        <testItem paraValue="false" itemKeyName="flashLightSecondSwitch" switchOrPara="switch" desc="后置闪光灯2电流测试（暖光灯）" owner="器件/硬件" />
+        <testItem paraValue="false" itemKeyName="frontFlashLightFirstSwitch" switchOrPara="switch" desc="前置闪光灯1电流测试（柔光灯）" owner="camera" />
+        <testItem paraValue="true" itemKeyName="codecCurrentSwitch" switchOrPara="switch" desc="音频codec电流测试" owner="器件/硬件" />
+        <testItem paraValue="true" itemKeyName="cameraCurrentSwitch" switchOrPara="switch" desc="前后camera电流测试" owner="camera" />
+        <testItem paraValue="false" itemKeyName="leakCurrentSwitch" switchOrPara="switch" desc="漏电流测试" owner="器件/硬件" />
+    <testItem paraValue="true" itemKeyName="paCurrentTestSwitch" switchOrPara="switch" desc="射频电流测试" owner="射频" />
+    <testItem paraValue="true" itemKeyName="uartsdioLoopSwitch" switchOrPara="switch" desc="UART SDIO（loop）测试（1102芯片新增SDIO和UART自检功能测试）" owner="近场通信：wifi" />
+    <testItem paraValue="true" itemKeyName="l2CacheSwitchSecond" switchOrPara="switch" desc="L2 cache（后）检测" owner="驱动：OS（孙继龙）" />
+    <testItem paraValue="true" itemKeyName="scrollTestSwitch" switchOrPara="switch" desc="划屏测试" owner="驱动：TP" />
+        <testItem paraValue="false" itemKeyName="mainMic2SilenceTestSwitch" switchOrPara="switch" desc="主mic2无声检测（划屏测试子项）" owner="驱动：音频（苏俊峰）" />
+    <testItem paraValue="true" itemKeyName="frequencyModulateSwitch" switchOrPara="switch" desc="调频测试" owner="驱动：OS（孙继龙）" />
+        <testItem paraValue="false" itemKeyName="subMic2SilenceTestSwitch" switchOrPara="switch" desc="副mic2无声检测（调频测试子项）" owner="驱动：音频（苏俊峰）" />
+    <testItem paraValue="true" itemKeyName="monkeyTestSwitch" switchOrPara="switch" desc="monkey测试" owner="驱动：OS（孙继龙）" />
+    <testItem paraValue="false" itemKeyName="flashLightTestSwitch" switchOrPara="switch" desc="闪关灯测试" owner="器件/硬件" />
+    <testItem paraValue="false" itemKeyName="autoRebootHighVoltSwitch" switchOrPara="switch" desc="L2 cache高压开关机测试" owner="驱动：OS（孙继龙）" />
+
+
+
+    <!-- 下面为各领域默认无需关注的参数：次数、时长== -->
+    <!-- 2 升降温循环测试前 -->
+    <testItem paraValue="2460000" itemKeyName="foreddrMemTestTime" switchOrPara="para" desc="前台DDR memtest测试一轮的时间ms" owner="驱动：OS（孙继龙）" />
+    <testItem paraValue="1" itemKeyName="foreddrMemLoopTestTimes" switchOrPara="para" desc="前台DDR memtest测试项次数" owner="驱动：OS（孙继龙）" />
+    <testItem paraValue="1" itemKeyName="hibenchTestTime" switchOrPara="para" desc="hibench测试次数" owner="驱动：OS（孙继龙）" />
+    <testItem paraValue="1" itemKeyName="ddrScreenTestTime" switchOrPara="para" desc="DDR Screen测试次数" owner="驱动：OS（孙继龙）" />
+    <testItem paraValue="1" itemKeyName="ddrSblTestTime" switchOrPara="para" desc="ddr sbl测试次数" owner="驱动：OS（孙继龙）" />
+    <testItem paraValue="1" itemKeyName="ufsTestTime" switchOrPara="para" desc="UFS测试次数" owner="驱动：存储（陈锐）" />
+    <testItem paraValue="1" itemKeyName="emmcRecoveryTestTime" switchOrPara="para" desc="emmcRecovery测试次数" owner="驱动：存储（陈锐）" />
+    <testItem paraValue="1" itemKeyName="storageJoblessTestTime" switchOrPara="para" desc="存储器件无业务测试次数" owner="驱动：存储（陈锐）" />
+    <testItem paraValue="1" itemKeyName="gpuSltTestTime" switchOrPara="para" desc="GPU SLT测试次数" owner="驱动：LCD（任喜刚、董玉龙）" />
+    <testItem paraValue="1" itemKeyName="l2CacheTimeFirst" switchOrPara="para" desc="L2 cache（前）检测次数" owner="驱动：OS（孙继龙）" />
+    <testItem paraValue="50" itemKeyName="autoRebootNumber" switchOrPara="para" desc="反复重启测试次数" owner="硬件、射频" />
+    <testItem paraValue="3" itemKeyName="lcdGramChecksumTestTime" switchOrPara="para" desc="LCD Gram checksum测试次数" owner="驱动：LCD（任喜刚、董玉龙）" />
+
+    <!-- 3 升降温循环测试 -->
+    <testItem paraValue="360000" itemKeyName="tempAscendOneTime" switchOrPara="para" desc="升温一后台测试时间" owner="应用生产" />
+    <testItem paraValue="20" itemKeyName="keypadTestTimes" switchOrPara="para" desc="键盘灯测试次数" owner="驱动：LCD（任喜刚、董玉龙）" />
+    <testItem paraValue="2" itemKeyName="dormancyNumberFirstPeriod" switchOrPara="para" desc="降温一中器件检测/休眠唤醒的循环次数" owner="应用生产" />
+    <testItem paraValue="180000" itemKeyName="systemDormancyTime" switchOrPara="para" desc="深度休眠唤醒休眠时间ms" owner="驱动：LCD（任喜刚、董玉龙）" />
+    <testItem paraValue="360000" itemKeyName="tempAscendTwoTime" switchOrPara="para" desc="升温二后台测试时间" owner="应用生产" />
+    <testItem paraValue="2" itemKeyName="dormancyNumberSecondPeriod" switchOrPara="para" desc="降温二中器件检测/休眠唤醒的循环次数" owner="应用生产" />
+
+    <!-- 4 升降温循环测试后 -->
+    <testItem paraValue="10" itemKeyName="cameraChecksumTestTime" switchOrPara="para" desc="camera checksum测试次数" owner="camera" />
+    <testItem paraValue="100" itemKeyName="cameraPhotosNumberTake" switchOrPara="para" desc="camera拍照次数" owner="camera" />
+    <testItem paraValue="400" itemKeyName="lcdBacklightEnhanceTime" switchOrPara="para" desc="CAMERA拍照时LCD前置背光补光次数" owner="驱动：LCD（任喜刚、董玉龙）" />
+    <testItem paraValue="5" itemKeyName="cameraBurstCycle" switchOrPara="para" desc="camera连拍轮数" owner="camera" />
+    <testItem paraValue="20" itemKeyName="cameraBurstNumber" switchOrPara="para" desc="camera连拍张数" owner="camera" />
+    <testItem paraValue="3" itemKeyName="cameraOcramTestTime" switchOrPara="para" desc="camera ocram测试次数" owner="camera" />
+    <testItem paraValue="300000" itemKeyName="fingerprintTestTime" switchOrPara="para" desc="指纹测试时间ms" owner="Sensor" />
+    <testItem paraValue="1" itemKeyName="workCurrentTestTime" switchOrPara="para" desc="工作电流测试次数" owner="器件/硬件" />
+    <testItem paraValue="1" itemKeyName="paCurrentTestTime" switchOrPara="para" desc="射频电流测试次数" owner="射频" />
+    <testItem paraValue="1" itemKeyName="uartsdioLoopTestTime" switchOrPara="para" desc="UART SDIO（loop）测试次数" owner="近场通信：wifi" />
+    <testItem paraValue="1" itemKeyName="l2CacheTimeSecond" switchOrPara="para" desc="L2 cache（后）检测次数" owner="驱动：OS（孙继龙）" />
+    <testItem paraValue="300000" itemKeyName="scrollTestTime" switchOrPara="para" desc="划屏测试时长ms" owner="驱动：TP" />
+    <testItem paraValue="600000" itemKeyName="frequencyModulateTestTime" switchOrPara="para" desc="调频测试时长ms" owner="驱动：OS（孙继龙）" />
+    <testItem paraValue="900000" itemKeyName="monkeyTestTime" switchOrPara="para" desc="monkey测试时长ms" owner="驱动：OS（孙继龙）" />
+    <testItem paraValue="120" itemKeyName="flashLightTestTime" switchOrPara="para" desc="闪光灯测试时长ms" owner="器件/硬件" />
+    <testItem paraValue="4" itemKeyName="autoRebootHighVoltNumber" switchOrPara="para" desc="L2 cache高压开关机测试次数" owner="驱动：OS（孙继龙）" />
+
+    <!-- 5 其他：默认不用配置 -->
+    <testItem paraValue="2016000" itemKeyName="cpuMaxFrequence" switchOrPara="para" desc="CPU频率（未生效）" owner="" />
+    <testItem paraValue="90" itemKeyName="cpuOccupancyFirstPeriod" switchOrPara="para" desc="CPU目标使用率" owner="" />
+    <testItem paraValue="8" itemKeyName="cpuThreadNumberFirstPeriod" switchOrPara="para" desc="CPU线程数" owner="" />
+    <testItem paraValue="90" itemKeyName="cpuOccupancySecondPeriod" switchOrPara="para" desc="CPU目标使用率" owner="" />
+    <testItem paraValue="8" itemKeyName="cpuThreadNumberSecondPeriod" switchOrPara="para" desc="CPU线程数" owner="" />
+</config>

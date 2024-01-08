@@ -1,0 +1,15 @@
+/product/region_comm/oversea/app/CeliaKeyboard_OVE_stub/CeliaKeyboard_OVE_stub.apk,nosys
+/product/region_comm/oversea/app/GameBox/GameBox.apk
+/product/region_comm/oversea/app/HwBrowser/HwBrowser.apk,priv
+/data/hw_init/product/region_comm/oversea/app/HwHealthPlatform_OVE/HwHealthPlatform_OVE.apk
+/product/region_comm/oversea/app/HwMaps_stub/HwMaps_stub.apk
+/product/region_comm/oversea/app/HwRead/HwRead.apk
+/product/region_comm/oversea/app/HwSearch/HwSearch.apk
+/product/region_comm/oversea/app/HwUpgradeGuide/HwUpgradeGuide.apk,priv
+/product/region_comm/oversea/app/HwUserGuide/HwUserGuide.apk,nosys
+/product/region_comm/oversea/app/HwVAssistant_OVE_stub/HwVAssistant_OVE_stub.apk
+/product/region_comm/oversea/app/LinkNow_stub/LinkNow_stub.apk
+/product/region_comm/oversea/app/MeeTime/MeeTime.apk,priv
+/product/region_comm/oversea/app/MyCenter_stub/MyCenter_stub.apk
+/data/hw_init/product/region_comm/oversea/app/MyDigi/MyDigi.apk
+/data/hw_init/product/region_comm/oversea/app/Wnn_Japanese_Ext_Pack-HW/Wnn_Japanese_Ext_Pack-HW.apk

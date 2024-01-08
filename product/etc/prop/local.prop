@@ -1,0 +1,297 @@
+# 2018-10-24 14:28:48.0
+camera.ignore.chat.facebeauty=1
+# 2018-10-24 14:29:55.0
+drm.service.enabled=true
+# 2018-10-24 14:30:58.0
+persist.iaware.mem_emerg_kill=true
+# 2018-10-24 14:26:58.0
+persist.sys.dualcards=true
+# 2019-08-09 16:33:22.0
+persist.sys.fast_h_delay=5000
+# 2018-10-24 14:30:58.0
+persist.sys.fast_h_duration=2000
+# 2018-10-24 14:30:58.0
+persist.sys.fast_h_max=50
+# 2019-08-09 16:33:22.0
+persist.sys.iaware_fast_h_delay=3000
+# 2018-12-24 19:48:50.0
+persist.sys.support_config_ash=false
+# 2018-11-12 15:24:22.0
+persist.vendor.cpub_min_freq_skip=0
+# 2018-10-24 14:28:49.0
+ro.blight.exempt_app_type=-1,1,16,24
+# 2018-12-26 19:29:24.0
+ro.build.hide=false
+# 2018-12-20 17:40:36.0
+ro.build.hide.matchers=ANE;ane;kirin659;xxxxxxxxxx;MaliT830-MP2;9.1.0
+# 2018-11-30 17:38:51.0
+ro.build.hide.replacements=ANE;ANE;unknown;unknown;unknown;8.0.0
+# 2018-10-24 14:27:57.0
+ro.build.hide.settings=8;1.8 GHz;2.0GB;20.00 GB;32.00 GB;1280 x 720;6.0;3.0.8;4.1
+# 2018-10-24 14:26:58.0
+ro.build.id=HUAWEIANE
+# 2018-10-24 14:26:58.0
+ro.build.product=ANE
+# 2018-10-30 09:50:24.0
+ro.build.soundrecorder.imgtag=true
+# 2018-10-24 14:30:58.0
+ro.camera.cos_photo_cfg=M5CPU_S
+# 2018-10-24 14:30:58.0
+ro.camera.cos_preview_cfg=LOW
+# 2018-10-24 14:27:57.0
+ro.camera.ttpic_bg_enable=true
+# 2018-10-24 14:27:57.0
+ro.camera.ttpic_enable=1
+# 2018-11-08 10:46:24.0
+ro.camera_features_reduce_9.0=false
+# 2018-10-25 14:36:39.0
+ro.check.modem_network=true
+# 2018-10-24 14:27:57.0
+ro.config.app_big_icon_size=170
+# 2018-10-24 14:29:55.0
+ro.config.attach_ip_type=IPV4V6PCSCF
+# 2018-10-24 14:26:58.0
+ro.config.audioEffectForRing=true
+# 2018-10-24 14:28:49.0
+ro.config.blight_power_curve=38,1;57,0.8;100,0.7;300,0.7;320,0.8;340,0.9;360,1
+# 2018-10-24 14:27:57.0
+ro.config.colorTemperature_3d=true
+# 2018-10-24 14:27:57.0
+ro.config.colorTemperature_K3=true
+# 2018-10-24 14:29:55.0
+ro.config.disable_operator_name=true
+# 2018-10-24 14:29:55.0
+ro.config.enable_thermal_bdata=true
+# 2018-10-24 14:28:48.0
+ro.config.enroll_vibrate_time=50
+# 2018-10-24 14:30:58.0
+ro.config.face_light_slot=75
+# 2018-10-24 14:26:58.0
+ro.config.face_recognition=true
+# 2018-10-24 14:30:58.0
+ro.config.face_rise_light=34
+# 2018-10-24 14:30:58.0
+ro.config.face_smart_keepon=false
+# 2018-10-24 14:30:58.0
+ro.config.face_smart_rotation=false
+# 2018-10-24 14:30:58.0
+ro.config.gameassist=1
+# 2018-10-24 14:30:58.0
+ro.config.gesture_nav_support=true
+# 2018-10-24 10:33:25.0
+ro.config.hide_meminfo=false
+# 2018-10-24 14:27:57.0
+ro.config.huawei_navi_extend=false
+# 2018-10-24 14:27:57.0
+ro.config.huawei_smallwindow=0
+# 2018-11-22 21:26:41.0
+ro.config.hw_BatteryLevel_job_allowed=92
+# 2018-10-24 14:27:57.0
+ro.config.hw_ReduceSAR=true
+# 2019-01-30 14:22:10.0
+ro.config.hw_bluetooth_is_auto_scan=false
+# 2018-10-24 14:30:58.0
+ro.config.hw_charge_frz=true
+# 2018-10-24 14:29:55.0
+ro.config.hw_dts_settings=true
+# 2018-10-24 14:27:57.0
+ro.config.hw_easywakeup=false
+# 2018-10-24 14:30:58.0
+ro.config.hw_fyuse_enable=false
+# 2018-10-24 14:28:48.0
+ro.config.hw_glovemode_enabled=0
+# 2018-10-24 14:29:55.0
+ro.config.hw_hotswap_on=true
+# 2018-10-24 14:28:48.0
+ro.config.hw_lte_support=true
+# 2018-10-24 14:28:48.0
+ro.config.hw_media_flags=2
+# 2019-01-15 20:12:16.0
+ro.config.hw_mg_copyright=false
+# 2018-11-12 21:57:54.0
+ro.config.hw_navbar_is_black=true
+# 2019-03-26 13:54:51.0
+ro.config.hw_newsimple=true
+# 2018-10-24 14:26:58.0
+ro.config.hw_notch_size=312,90,384,45
+# 2018-11-24 18:19:16.0
+ro.config.hw_novaThemeSupport=true
+# 2018-10-24 14:27:57.0
+ro.config.hw_nova_performance=true
+# 2018-10-24 14:29:55.0
+ro.config.hw_screen_aspect=2280:2008:1080
+# 2018-10-24 14:29:55.0
+ro.config.hw_sim2airplane=true
+# 2018-10-24 14:29:55.0
+ro.config.hw_smart_backlight=0
+# 2019-08-09 16:33:22.0
+ro.config.hw_snapshot_scale=70
+# 2018-10-24 14:27:57.0
+ro.config.hw_support_clone_app=true
+# 2018-10-24 14:27:57.0
+ro.config.hw_support_geofence=true
+# 2018-10-24 14:28:48.0
+ro.config.hw_switchdata_4G=true
+# 2018-10-24 14:28:48.0
+ro.config.hw_sws=true
+# 2018-10-24 14:28:48.0
+ro.config.hw_triple_finger=true
+# 2018-10-24 14:28:48.0
+ro.config.hw_volte_on=true
+# 2018-11-06 19:50:05.0
+ro.config.hw_vtlte_on=true
+# 2018-10-24 14:28:48.0
+ro.config.hw_wakeup_device=true
+# 2018-12-26 19:29:24.0
+ro.config.hw_watermark=false
+# 2018-10-24 14:29:55.0
+ro.config.hw_wifibridge=true
+# 2018-10-24 14:30:58.0
+ro.config.led_close_by_camera=true
+# 2018-10-24 14:28:48.0
+ro.config.linkplus.liveupdate=true
+# 2018-10-24 14:29:55.0
+ro.config.low_temp_tsh=-50
+# 2018-10-24 14:28:48.0
+ro.config.marketing_name=HAT
+# 2018-11-05 11:04:06.0
+ro.config.new_hw_screen_aspect=2280:2150:1080
+# 2018-11-05 17:03:10.0
+ro.config.ota_update_theme=9
+# 2018-10-24 14:28:49.0
+ro.config.pg_cabc_brightness=32
+# 2018-10-24 14:29:55.0
+ro.config.pg_camera_cabc=true
+# 2018-12-24 20:05:40.0
+ro.config.pg_unify_app_5min=true
+# 2018-12-18 21:00:36.0
+ro.config.pg_unify_push_5min=true
+# 2018-12-24 19:22:15.0
+ro.config.phone_findback_net=false
+# 2018-12-13 15:19:24.0
+ro.config.pureAndroidSecNotify=false
+# 2018-11-12 19:56:56.0
+ro.config.show_auto_brightness=true
+# 2018-11-09 11:54:19.0
+ro.config.show_high_consume=true
+# 2018-12-12 15:20:26.0
+ro.config.show_sdcard_psw=true
+# 2019-01-29 10:42:31.0
+ro.config.step_count_show=true
+# 2018-10-24 14:29:55.0
+ro.config.support_ca=true
+# 2018-11-22 13:27:20.0
+ro.config.support_face_mode=0
+# 2018-10-24 14:29:55.0
+ro.config.support_hwpki=false
+# 2019-01-31 17:18:35.0
+ro.config.support_notification_way=true
+# 2018-12-19 17:20:22.0
+ro.config.support_sdcard_crypt=true
+# 2018-10-24 14:29:55.0
+ro.config.swsAlwaysActiveForSPK=true
+# 2018-10-24 14:29:55.0
+ro.config.sws_apk_hptype=1
+# 2018-10-24 14:28:48.0
+ro.config.sws_version=sws3_1
+# 2018-10-24 14:30:58.0
+ro.config.systemui.hwwidget=false
+# 2018-10-24 14:28:49.0
+ro.config.thermal_gpu_min=true
+# 2018-11-02 14:31:15.0
+ro.config.upgrade_clean_notify=true
+# 2018-10-24 14:29:55.0
+ro.config.vol_steps=15
+# 2018-10-24 14:29:55.0
+ro.config.wake_bind_face=false
+# 2018-10-24 14:28:48.0
+ro.dual.sim.phone=true
+# 2019-01-29 10:42:30.0
+ro.feature.display_screensaver_lite=false
+# 2018-11-09 11:37:36.0
+ro.feature.gallery.edit_illusion_enable=true
+# 2019-02-15 16:13:03.0
+ro.feature.gallery.hide_album_enable=true
+# 2018-11-09 14:11:11.0
+ro.feature.gallery.slide_show_enable=true
+# 2019-01-30 16:10:46.0
+ro.feature.hwcamera.dsl.panorama3d=1
+# 2019-03-13 09:12:29.0
+ro.feature.launcher.long_click_enter_edit_mode=true
+# 2019-01-16 09:25:05.0
+ro.feature.launcher.setting_cycle_keep=true
+# 2019-02-15 16:13:06.0
+ro.feature.mobile_network_sharing_lite=false
+# 2019-01-29 10:42:31.0
+ro.feature.show_backfp_function=true
+# 2019-01-16 11:10:23.0
+ro.feature.weather.add_no_update_item=true
+# 2018-10-24 14:29:55.0
+ro.gsensor.calibrate=true
+# 2018-10-24 14:28:48.0
+ro.hwcamera.BackSnapShotLimit=true
+# 2018-11-08 10:39:42.0
+ro.hwcamera.flashoff=0
+# 2018-11-08 10:40:44.0
+ro.hwcamera.frontzoom_enable=1
+# 2018-10-24 14:30:58.0
+ro.hwcamera.gifphoto_enable=true
+# 2018-10-24 14:27:57.0
+ro.hwcamera.gps_request_delay=30
+# 2018-10-24 14:28:48.0
+ro.hwcamera.portrait_mode=off
+# 2018-11-08 10:42:09.0
+ro.hwcamera.recognition_enable=1
+# 2018-12-25 20:43:18.0
+ro.hwcamera.reduce_resolution=false
+# 2018-10-24 14:27:57.0
+ro.hwcamera.use.videosize.1080p=true
+# 2018-11-08 10:44:46.0
+ro.odm.camera.watermark=true
+# 2018-10-24 14:26:58.0
+ro.product.board=ANE
+# 2018-10-24 14:26:58.0
+ro.product.brand=HUAWEI
+# 2018-10-24 14:26:58.0
+ro.product.device=HWANE
+# 2018-10-24 14:27:57.0
+ro.product.fingerprintName=HUAWEI-02ANE
+# 2019-03-19 11:45:00.0
+ro.product.force.opengl=true
+# 2018-10-24 14:26:58.0
+ro.product.manufacturer=HUAWEI
+# 2018-10-24 14:26:58.0
+ro.product.model=ANE
+# 2018-10-24 14:26:58.0
+ro.product.name=ANE
+# 2018-10-24 14:30:58.0
+ro.readfastboot=0
+# 2018-12-24 17:24:10.0
+ro.sys.pg_nfb_kill=true
+# 2018-10-24 14:30:58.0
+sys.aps.2kenablesdrdefault=true
+# 2018-10-24 14:29:55.0
+sys.refresh.dirty=1
+
+
+
+
+ro.comp.product_version=Product-ANE-LGRP2-OVS 9.1.0(0000)
+
+=
+
+ro.config.beta_sec_ctrl=false
+
+sys.hisi.pmom.service.enable=false
+
+ro.build.display.id=no-need
+
+ro.hw.hota.is_hwinit_exists=true
+
+ro.comp.hl.product_base_version=ANE-LGRP2-OVS 9.1.0.401
+
+ro.hw.base_all_groupversion=G1.1
+
+ro.build.backtargetmode=V1.0
+
+ro.product.imeisv=73

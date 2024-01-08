@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+  <!--2018-11-23 15:52:17.0-->
+  <string custom_certify_picture="/product/hw_oem/ANE-L42J/media/ANE-LX2J.png"/>
+  <!--2018-10-26 15:43:37.0-->
+  <integer settings.global.hw_wifi_ap_band="2"/>
+</resources>

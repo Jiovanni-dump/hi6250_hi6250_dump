@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- Emui6.0 dallas -->
+<Config>
+    <Enable>true</Enable>
+
+    <Thumbnail type="MICRO">
+    </Thumbnail>
+    <Thumbnail type="FAST">
+    </Thumbnail>
+    <Thumbnail type="ANIMATION">
+        <Algo>ACE</Algo>
+        <Algo>GMP</Algo>
+    </Thumbnail>
+    <Thumbnail type="FULLSCREEN">
+        <Algo>ACE</Algo>
+        <Algo>GMP</Algo>
+        <Algo>SR</Algo>
+        <Algo>SHARPNESS</Algo>
+        <SaveCommonInfo>true</SaveCommonInfo>
+    </Thumbnail>
+    <Thumbnail type="HALFSCREEN">
+        <Algo>ACE</Algo>
+        <Algo>GMP</Algo>
+        <SaveCommonInfo>true</SaveCommonInfo>
+    </Thumbnail>
+    <Thumbnail type="DEFAULT">
+        <Algo>ACE</Algo>
+        <Algo>GMP</Algo>
+    </Thumbnail>
+
+    <Tile type="NON_SR">
+        <Algo>ACE</Algo>
+        <Algo>GMP</Algo>
+    </Tile>
+    <Tile type="SR">
+        <Algo>SR</Algo>
+        <Algo>SHARPNESS</Algo>
+    </Tile>
+</Config>

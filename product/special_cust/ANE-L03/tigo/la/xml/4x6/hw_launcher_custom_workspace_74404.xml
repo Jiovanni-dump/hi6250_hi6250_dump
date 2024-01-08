@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher" version="2">
+    <favorite
+        launcher:packageName="com.facebook.katana"
+        launcher:className="com.facebook.katana.LoginActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="add"/>
+    <favorite
+        launcher:packageName="com.instagram.android"
+        launcher:className="com.instagram.android.activity.MainTabActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="add"/>
+    <favorite
+        launcher:packageName="com.facebook.orca"
+        launcher:className="com.facebook.orca.auth.StartScreenActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="add"/>
+</favorites>

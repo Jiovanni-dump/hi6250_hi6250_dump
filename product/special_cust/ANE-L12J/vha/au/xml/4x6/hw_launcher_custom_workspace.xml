@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher" version="1">
+    <specialorder launcher:op="screen+1"/>
+    <!--左起第 0 屏-->
+    <favorite
+        launcher:packageName="com.huawei.android.launcher"
+        launcher:className="com.huawei.launcher.cust.LauncherShortcutActivity"
+        launcher:shortcutid="Vodafone"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1" 
+        launcher:shortcut="true"
+        launcher:op="insert"/>
+    <favorite
+        launcher:packageName="au.com.vodafone.mobile.gss"
+        launcher:className="au.com.vodafone.mobile.gss.MyVodafone"
+        launcher:container="-100"
+        launcher:screen="0"
+        launcher:x="3"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1" 
+        launcher:op="insert" />
+</favorites>

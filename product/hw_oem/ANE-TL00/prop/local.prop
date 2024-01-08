@@ -1,0 +1,46 @@
+# 2018-10-25 11:51:51.0
+ro.alipay.channel.path=/hw_oem/xml/Alipay/huawei_alipay_antibrush
+# 2018-10-25 11:51:52.0
+ro.boot.product.hardware.sku=ANE-TL00
+# 2018-10-25 11:51:51.0
+ro.build.dianping_sourcefile=/hw_oem/xml/Dianping/dpsource.source
+# 2018-10-25 11:51:51.0
+ro.build.id=HUAWEIANE-TL00
+# 2018-10-25 11:51:51.0
+ro.channel.cn.wps.moffice_eng=mul00172
+# 2018-10-25 11:51:51.0
+ro.channelId.vipshop=/hw_oem/xml/VipShop/
+# 2018-10-25 11:51:52.0
+ro.check.modem_network=false
+# 2018-10-25 11:51:51.0
+ro.com.baidu.baidumap=/hw_oem/xml/BaiduMap/
+# 2018-10-25 11:51:51.0
+ro.com.baidu.searchbox=/hw_oem/xml/BaiduSearch/
+# 2018-10-25 11:51:51.0
+ro.config.attach_apn_enabled=true
+# 2018-10-25 11:51:51.0
+ro.config.cdma.ecclist=+110,+112,+911,+999,+119,+120,+122
+# 2018-10-25 11:51:52.0
+ro.config.chr_call_tracker=true
+# 2018-10-30 15:05:51.0
+ro.config.hw_charge_frz=true
+# 2018-10-25 11:51:51.0
+ro.config.marketing_name=HUAWEI nova 3e
+# 2018-10-25 11:51:52.0
+ro.config.networkmode_hide_dyn=true
+# 2018-10-25 11:51:51.0
+ro.huawei.channel.path=/hw_oem/xml/Weibo/
+# 2018-10-26 15:56:31.0
+ro.hwpp.dualsim_swap_solution=cmcc
+# 2018-10-25 11:51:52.0
+ro.hwpp_ds_fail=111,32,33,35
+# 2018-10-25 11:51:51.0
+ro.product.hardwareversion=HL1ANNEM
+# 2018-10-25 11:51:51.0
+ro.product.member.level=10010
+# 2018-10-25 11:51:51.0
+ro.product.model=ANE-TL00
+# 2018-10-25 11:51:51.0
+ro.product.name=ANE-TL00
+# 2018-10-25 11:51:51.0
+ro.ximalaya.ting.yz-huawei=yz-huawei

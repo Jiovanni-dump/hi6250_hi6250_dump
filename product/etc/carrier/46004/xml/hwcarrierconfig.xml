@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="e268c73234061a95c37e163596b794af">
+  <dict>
+    <!--2019-05-14 10:01:36.0-->
+    <bool key="carrier_voice_to_video_can_cancel_bool">false</bool>
+  </dict>
+</config>

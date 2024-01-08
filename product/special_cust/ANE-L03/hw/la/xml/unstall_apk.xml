@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tag>
+  <apk/>
+  <restoreapk>/data/hw_init/product/region_comm/oversea/app/HwRideMode.apk;/data/hw_init/product/region_comm/oversea/app/HwDtmfAnalyzer.apk;/system/priv-app/HwIntelligent.apk;/data/hw_init/product/region_comm/oversea/app/HwIntelligent.apk;/product/region_comm/oversea/app/HwIntelligent.apk;</restoreapk>
+</tag>

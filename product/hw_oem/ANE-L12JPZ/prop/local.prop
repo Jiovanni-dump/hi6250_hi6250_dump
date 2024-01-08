@@ -1,0 +1,30 @@
+# 2018-10-25 10:08:30.0
+persist.sys.dualcards=false
+# 2018-10-25 10:08:30.0
+ro.boot.product.hardware.sku=HWV32
+# 2018-10-25 10:08:30.0
+ro.build.id=HUAWEI-HWV32
+# 2018-10-25 10:08:30.0
+ro.config.ce_authenticate=1
+# 2018-10-30 15:05:51.0
+ro.config.hw_charge_frz=true
+# 2018-10-25 10:08:30.0
+ro.config.hw_sim2airplane=false
+# 2018-10-25 10:08:30.0
+ro.config.hw_wifibridge=
+# 2018-11-06 11:06:03.0
+ro.config.marketing_name=HUAWEI P20 lite
+# 2019-04-15 16:02:08.0
+ro.config.product_version_pre=ANE-L12JPZ
+# 2018-10-25 10:08:30.0
+ro.config.safety_certification=FCC
+# 2018-10-25 10:08:30.0
+ro.dual.sim.phone=false
+# 2019-05-28 16:34:54.0
+ro.feature.launcher.force_hidesoft=true
+# 2018-10-25 10:08:30.0
+ro.product.hardwareversion=HL3ANNEM
+# 2018-10-25 10:08:30.0
+ro.product.model=HWV32
+# 2018-10-25 10:08:30.0
+ro.product.name=HWV32_jp_kdi

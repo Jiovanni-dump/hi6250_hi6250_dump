@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.huawei.android.launcher">
+
+    <favorite
+        launcher:packageName="com.huawei.appmarket"
+        launcher:className="com.huawei.appmarket.MainActivity"
+        launcher:op="delete"/>
+    <favorite
+        launcher:packageName="com.android.deskclock"
+        launcher:className="com.android.deskclock.AlarmsMainActivity"
+        launcher:op="delete"/>
+    <favorite
+        launcher:packageName="com.android.calendar"
+        launcher:className="com.android.calendar.AllInOneActivity"
+        launcher:op="delete"/>
+    <favorite
+        launcher:packageName="com.huawei.hidisk"
+        launcher:className="com.huawei.hidisk.filemanager.FileManager"
+        launcher:op="delete"/>
+    <favorite
+        launcher:packageName="com.example.android.notepad"
+        launcher:className="com.example.android.notepad.NotePadActivity"
+        launcher:op="delete"/>
+    <favorite
+        launcher:packageName="com.huawei.android.tips"
+        launcher:className="com.huawei.android.tips.HomePageActivity"
+        launcher:op="delete"/>
+    <folder
+        launcher:title="@string/folder_tools"
+        launcher:op="delete"/>
+    <!-- Clock -->
+    <favorite
+        launcher:packageName="com.android.deskclock"
+        launcher:className="com.android.deskclock.AlarmsMainActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1"/>
+    <!-- Calendar -->
+    <favorite
+        launcher:packageName="com.android.calendar"
+        launcher:className="com.android.calendar.AllInOneActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1"/>
+    <!-- Notepad -->
+    <favorite
+        launcher:packageName="com.example.android.notepad"
+        launcher:className="com.example.android.notepad.NotePadActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1"/>
+    <!-- Files -->
+    <favorite
+        launcher:packageName="com.huawei.hidisk"
+        launcher:className="com.huawei.hidisk.filemanager.FileManager"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1"/>
+    <!-- Tips -->
+    <favorite
+        launcher:packageName="com.huawei.android.tips"
+        launcher:className="com.huawei.android.tips.HomePageActivity"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="4"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1"/>
+    <!-- Tools -->
+    <folder
+        launcher:title="@string/folder_tools"
+        launcher:container="-100"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="1">
+        <!-- Weather -->
+        <favorite
+            launcher:packageName="com.huawei.android.totemweather"
+            launcher:className="com.huawei.android.totemweather.WeatherHome"/>
+        <!-- Calculator -->
+        <favorite
+            launcher:packageName="com.android.calculator2"
+            launcher:className="com.android.calculator2.Calculator"/>
+        <!-- Recorder -->
+        <favorite
+            launcher:packageName="com.android.soundrecorder"
+            launcher:className="com.android.soundrecorder.SoundRecorder"/>
+        <!-- FM Radio -->
+        <favorite
+            launcher:packageName="com.huawei.android.FMRadio"
+            launcher:className="com.huawei.android.FMRadio.FMRadioMainActivity"/>
+        <!-- Flashlight -->
+        <favorite
+            launcher:packageName="com.android.systemui"
+            launcher:className="com.android.systemui.flashlight.FlashlightActivity"/>
+        <!-- Game Suite -->
+        <favorite
+            launcher:packageName="com.huawei.gameassistant"
+            launcher:className="com.huawei.gameassistant.views.LoadActivity"/>
+        <!-- Mirror -->
+        <favorite
+            launcher:packageName="com.android.hwmirror"
+            launcher:className="com.android.hwmirror.Mirror"/>
+        <!-- Compass -->
+        <favorite
+            launcher:packageName="com.huawei.compass"
+            launcher:className="com.huawei.compass.MainActivity"/>
+        <!--Backup 备份-->
+        <favorite
+            launcher:packageName="com.huawei.KoBackup"
+            launcher:className="com.huawei.KoBackup.InitializeActivity" />
+        <!--Phone Clone 手机克隆-->
+        <favorite
+            launcher:packageName="com.hicloud.android.clone"
+            launcher:className="com.huawei.android.clone.activity.sender.ChooseRecevieSendActivity" />
+        <!-- Downloads -->
+        <favorite
+            launcher:packageName="com.android.documentsui"
+            launcher:className="com.android.documentsui.LauncherActivity"/>
+        <!-- SIM Toolkit -->
+        <favorite
+            launcher:packageName="com.android.stk"
+            launcher:className="com.android.stk.StkLauncherActivity"/>
+        <!-- SIM Toolkit -->
+        <favorite
+            launcher:packageName="com.android.stk"
+            launcher:className="com.android.stk.StkLauncherActivity2"/>
+    </folder>
+    <favorite
+        launcher:packageName="com.google.android.apps.messaging"
+        launcher:className="com.google.android.apps.messaging.ui.ConversationListActivity"
+        launcher:op="delete"/>
+    <favorite
+        launcher:packageName="com.android.mms"
+        launcher:className="com.android.mms.ui.ConversationList"
+        launcher:container="-101"
+        launcher:screen="2"
+        launcher:x="2"
+        launcher:y="0"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:op="insert"/>
+</favorites>

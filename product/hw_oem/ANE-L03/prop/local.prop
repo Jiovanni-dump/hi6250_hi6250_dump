@@ -1,0 +1,30 @@
+# 2018-10-24 20:09:01.0
+persist.sys.dualcards=false
+# 2018-10-24 20:09:01.0
+ro.boot.product.hardware.sku=ANE-LX3
+# 2019-02-27 10:52:37.0
+ro.build.id=HUAWEIANE-L03
+# 2019-04-23 20:14:35.0
+ro.config.amr_wb_show_hd=true
+# 2018-10-24 20:09:01.0
+ro.config.ce_authenticate=1
+# 2018-10-30 15:06:55.0
+ro.config.hw_charge_frz=true
+# 2018-10-24 20:09:01.0
+ro.config.hw_sim2airplane=false
+# 2018-10-24 20:09:01.0
+ro.config.marketing_name=HUAWEI P20 lite
+# 2018-10-24 20:09:01.0
+ro.config.safety_certification=IC,FCC
+# 2018-10-24 20:09:01.0
+ro.dual.sim.phone=false
+# 2018-10-24 20:09:01.0
+ro.product.first_api_level=26
+# 2018-10-24 20:09:01.0
+ro.product.hardwareversion=HL3ANNEM
+# 2018-10-24 20:09:01.0
+ro.product.model=ANE-LX3
+# 2018-10-24 20:09:01.0
+ro.product.name=ANE-LX3
+
+ro.build.description=ANE-L03-user 9.1.0 HUAWEIANE-L03 401-LGRP2-OVS release-keys
