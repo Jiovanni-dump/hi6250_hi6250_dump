@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="ddd941fac4fea59f330d169532b66386">
+  <dict>
+    <!--2020-08-11 12:07:28.000-->
+    <int key="max_message_size">307200</int>
+    <!--2020-08-11 12:07:28.000-->
+    <int key="num_match">9</int>
+    <!--2020-08-11 12:07:28.000-->
+    <int key="sms_to_mms_textthreshold">5</int>
+    <!--2020-08-11 12:07:28.000-->
+    <string key="virtual_ecclist_withcard">+911,+112,+999</string>
+    <!--2020-08-11 12:07:28.000-->
+    <string key="virtualnet_operatorname">48</string>
+    <!--2020-08-11 12:07:28.000-->
+    <string key="voicemail_carrier">Three IE</string>
+    <!--2020-08-11 12:07:28.000-->
+    <string key="voicemail_number">171</string>
+    <!--2020-08-11 12:07:28.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

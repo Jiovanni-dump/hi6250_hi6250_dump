@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="f085d0e9001dabc83a0b9b57897d748c">
+  <dict>
+    <!--2020-01-14 14:40:08.000-->
+    <bool key="carrier_default_volte_switch_on_bool">false</bool>
+    <!--2021-05-31 19:26:13.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2020-01-14 14:40:08.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2020-12-07 19:17:03.000-->
+    <int key="utBsfPort">80</int>
+    <!--2020-12-07 19:17:03.000-->
+    <string key="utBsfSrvAddr">bsf.mnc040.mcc293.pub.3gppnetwork.org</string>
+    <!--2020-01-14 14:40:08.000-->
+    <bool key="utForbiddenWhenVolteSwitchOff">false</bool>
+    <!--2021-03-05 16:00:10.000-->
+    <string key="utParamsCfg">0:1,8:1</string>
+    <!--2020-01-14 14:40:08.000-->
+    <int key="utUseApn">1</int>
+  </dict>
+</config>

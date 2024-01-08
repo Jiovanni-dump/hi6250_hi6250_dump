@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="f46c717367665a164fe98bf5507aa09b">
+  <dict>
+    <!--2020-11-24 14:24:31.000-->
+    <int key="num_match">9</int>
+    <!--2020-11-25 10:37:00.000-->
+    <int key="plmn_esm_flag">1</int>
+    <!--2020-11-24 14:24:31.000-->
+    <string key="virtual_ecclist_withcard">+112</string>
+    <!--2020-11-24 14:24:31.000-->
+    <string key="virtualnet_operatorname">Tele2 NL</string>
+    <!--2020-11-24 14:24:31.000-->
+    <string key="voicemail_carrier">Tele2 NL</string>
+    <!--2020-11-24 14:24:31.000-->
+    <string key="voicemail_number">+31640192939</string>
+    <!--2020-11-24 14:24:31.000-->
+    <string key="voicemail_tag">voicemail</string>
+  </dict>
+</config>

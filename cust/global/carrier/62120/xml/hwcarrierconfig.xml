@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="e3d1ae58114f01b7421565f987e2a21b">
+  <dict>
+    <!--2020-06-09 10:59:54.000-->
+    <bool key="CFNRcChangeWithCFNL">false</bool>
+    <!--2020-06-09 10:59:54.000-->
+    <bool key="carrier_default_volte_switch_on_bool">true</bool>
+    <!--2020-06-01 16:06:12.000-->
+    <string key="carrier_volte_hd_icon_flag">10101010</string>
+    <!--2020-06-09 10:59:54.000-->
+    <bool key="preferToUseUT">true</bool>
+    <!--2020-06-09 10:59:54.000-->
+    <bool key="utForbiddenWhenVolteSwitchOff">false</bool>
+  </dict>
+</config>

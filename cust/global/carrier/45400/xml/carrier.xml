@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="d78b968e72892f2e64bc776fe24461d6">
+  <dict>
+    <!--2019-10-30 14:36:08.000-->
+    <int key="num_match">8</int>
+    <!--2018-09-25 20:00:54.000-->
+    <bool key="support_vn_ecc">true</bool>
+    <!--2018-05-26 15:14:11.000-->
+    <string key="virtualnet_operatorname">CSL</string>
+  </dict>
+</config>

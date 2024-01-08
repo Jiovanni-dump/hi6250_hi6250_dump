@@ -1,0 +1,2 @@
+system/system/priv-app/Settings/Settings.apk.xz
+vendor/firmware/isp_dts.img.xz

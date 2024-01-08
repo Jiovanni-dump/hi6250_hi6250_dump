@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="6d988ed5260c80f6cf71918f290d4cfa">
+  <dict>
+    <!--2019-11-19 16:24:16.000-->
+    <bool key="compatible_apn_switch">true</bool>
+    <!--2018-06-04 19:19:43.000-->
+    <bool key="hw_add_4g_only">true</bool>
+  </dict>
+</config>

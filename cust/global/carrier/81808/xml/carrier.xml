@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="066f98bebeb1949fe95af1e6efdb06a5">
+  <dict>
+    <!--2019-12-26 15:19:45.000-->
+    <string key="nr_technology_config">ConfigD</string>
+    <!--2019-12-26 15:19:45.000-->
+    <bool key="pre_apn_NotDel">true</bool>
+    <!--2019-12-26 15:19:45.000-->
+    <bool key="pre_apn_unable">true</bool>
+  </dict>
+</config>

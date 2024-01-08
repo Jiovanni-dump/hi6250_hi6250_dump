@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config hashvalue="92d59b87ec6f27e120322b00ccfde15a">
+  <dict>
+    <!--2021-05-25 20:45:27.000-->
+    <int key="max_message_size">614400</int>
+    <!--2021-05-25 20:45:27.000-->
+    <string key="virtual_ecclist_withcard">+112,+911</string>
+  </dict>
+</config>
